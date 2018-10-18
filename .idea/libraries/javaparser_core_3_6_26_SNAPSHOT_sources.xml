@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaparser-core-3.6.26-SNAPSHOT-sources">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../javaparser-master/javaparser-core/target/javaparser-core-3.6.26-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

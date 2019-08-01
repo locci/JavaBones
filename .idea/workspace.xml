@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63b72d68-c4e4-42b0-a06c-14faae31a63d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaparser3/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/compi/CompUnit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/FileManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/requeriment/Requirement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/stmt/StmtIfWhile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/compi/CompUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requirement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/stmt/StmtIfWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="63b72d68-c4e4-42b0-a06c-14faae31a63d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -40,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="153">
+              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +68,8 @@
         <option value="$PROJECT_DIR$/src/br/ime/usp/parser/compi/CompUnit.java" />
         <option value="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requeriment.java" />
         <option value="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requirement.java" />
-        <option value="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java" />
       </list>
     </option>
   </component>
@@ -292,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547572660544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Nesta versão, eu já consigo pegar os if e while. Agora vou iniciar uma versão que deve produzir a ferramenta que quero.">
+      <created>1564679955194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564679955194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -315,12 +309,12 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="SonarLint" visible="true" weight="0.32976827" />
       <window_info anchor="bottom" id="Jelastic" />
       <window_info anchor="bottom" id="LuaCheck" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3262032" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3262032" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,20 +379,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="285">
+          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        <state relative-caret-position="153">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

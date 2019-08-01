@@ -11,19 +11,19 @@ public class FileManager {
 
         File folder = new File(path);
         File[] listOfFiles = folder.listFiles();
-        //ArrayList<String> outPutList = new ArrayList<>();
 
+        if (listOfFiles!=null){
 
+            for (File file : listOfFiles) {
 
-        for (File file : listOfFiles) {
+                if (file.isFile()) {
 
-            if (file.isFile()) {
+                    outPutList.add(file.getAbsolutePath());
 
-                outPutList.add(file.getAbsolutePath());
+                } else {
 
-            } else {
-
-                buildListOfFile(file.getAbsolutePath());
+                    buildListOfFile(file.getAbsolutePath());
+                }
 
             }
 

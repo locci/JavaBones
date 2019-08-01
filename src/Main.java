@@ -1,123 +1,55 @@
-import com.github.javaparser.ast.CompilationUnit;
-import com.github.javaparser.ast.body.MethodDeclaration;
-import com.github.javaparser.ast.stmt.IfStmt;
-import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
-import com.github.javaparser.printer.YamlPrinter;
-
-import com.github.javaparser.*;
-import java.io.FileInputStream;
-import java.io.FileWriter;
+//import br.ime.usp.parser.compi.CompUnit;
+import br.ime.usp.parser.filemanager.FileManager;
+import br.ime.usp.parser.requeriment.Requirement;
+import javax.swing.*;
+import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 
 public class Main {
 
+
     public static void main(String[] args) throws IOException {
 
 
-        YamlPrinter printer = new YamlPrinter(true);
-        FileInputStream in = new FileInputStream("/media/alexandre/MyFiles/IntellijWorkSpace/src/Simples.java");
-        FileWriter fw = new FileWriter("/media/alexandre/MyFiles/IntellijWorkSpace/out4");
-        CompilationUnit cu = JavaParser.parse(in);
+        //YamlPrinter printer = new YamlPrinter(true);
+        FileManager fm = new FileManager();
+        final JFileChooser fc = new JFileChooser();
+        fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        int returnVal = fc.showOpenDialog(null);
 
-        List<IfStmt> listIf = cu.getChildNodesByType(IfStmt.class);
+        if(returnVal == 1) {
 
-        for(IfStmt e: listIf) {
+            Exception e = new Exception();
+            //throw e.getMessage("File not selected");
 
-            System.out.println(e.getCondition());
+        }
+
+        File pathDir = fc.getSelectedFile();
+        ArrayList<String> path = fm.buildListOfFile(pathDir.getAbsolutePath());
+
+        final String str = "/media/alexandre/MyFiles/IntellijWorkSpace/src/Simples.java";
+        final Requirement re = new Requirement();
+        re.buildListIfRequirement(str);
+        List<String[]> listWhile = re.getListWhileRequirements();
+        List<String[]> listIf    = re.getListIfRequirements();
+
+        for(int i=0; i < listIf.size(); i++){
+
+            String[] arr = listIf.get(i);
+
+            for(String strOut: arr){
+                System.out.println(strOut);
+            }
 
         }
 
+        //for(int j=0; j < listWhile.size(); j++) System.out.println(listWhile.get(j));
 
-        Metrics ma = new Metrics();
-
-        fw.write(printer.output(cu));
-        fw.close();
-
-        String str = printer.output(cu);
-
-        if(ma.buildMetrics(str)) {
-
-            System.out.println("OK");
-
-        } else {
-
-            System.out.println("NOK");
-
-        }
 
     }
 
 }
 
-class MethodPrinter {
-
-    public static void main(String[] args) throws Exception {
-        // creates an input stream for the file to be parsed
-        FileInputStream in = new FileInputStream("/home/alexandre/Desktop/teste/Main.java");
-        CompilationUnit cu = JavaParser.parse(in);
-        cu.accept(new MethodVisitor(),null);
-
-    }
-
-    /**
-     * Simple visitor implementation for visiting MethodDeclaration nodes.
-     */
-    private static class MethodVisitor extends VoidVisitorAdapter<Void> {
-
-        public void visit(MethodDeclaration n, Void arg) {
-            System.out.println(n.getName());
-            System.out.println(n.getBody());
-
-            super.visit(n, arg);
-        }
-    }
-
-}
-
-class Metrics {
-
-    public boolean buildMetrics (String str){
-
-       String[] code;
-       String className = "";
-       String interfaceName = "";
-       int cont = 0;
-
-       code = str.split("\n");
-
-        while(cont < code.length) {
-
-           if(code[cont].contains("type(Type=ClassOrInterfaceDeclaration)")) {
-
-
-               cont++;
-               if(code[cont].contains("false")) {
-
-                   cont= cont + 2;
-                   className = code[cont].replace("identifier: \"", "");
-                   className = className.replace("\"", "");
-                   System.out.println("Class " + className);
-
-
-               } else {
-
-                    cont = cont + 2;
-                    interfaceName = code[cont].replace("identifier: \"", "");
-                    interfaceName = interfaceName.replace("\"", "");
-                    System.out.println("Interface " + interfaceName);
-
-               }
-
-           }
-
-           cont++;
-
-       }
-
-
-       return true;
-    }
-
-}

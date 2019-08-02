@@ -15,35 +15,38 @@ public class Main {
         final JFileChooser fc = new JFileChooser();
         fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         fc.showOpenDialog(null);
+        fm.destroFile();
 
         File pathDir = fc.getSelectedFile();
         ArrayList<String> path = fm.buildListOfFile(pathDir.getAbsolutePath());
 
         for (String pathFull : path) {
 
-            System.out.println(pathFull + "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            fm.buidLogFile(pathFull + "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
             final Requirement re = new Requirement();
             re.buildListIfRequirement(pathFull);
             List<String[]> listWhile = re.getListWhileRequirements();
             List<String[]> listIf = re.getListIfRequirements();
 
-            System.out.println("If");
+            fm.buidLogFile("If");
 
             for (String[] arr : listIf) {
 
                 for (String strOut : arr) {
-                    System.out.println(strOut);
+
+                    fm.buidLogFile(strOut);
+
                 }
 
             }
 
-            System.out.println("While");
+            fm.buidLogFile("While");
 
             for (String[] arr : listWhile) {
 
                 for (String strOut : arr) {
 
-                    System.out.println(strOut);
+                    fm.buidLogFile(strOut);
 
                 }
 

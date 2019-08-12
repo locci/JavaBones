@@ -1,0 +1,4891 @@
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/JUnitResultAssert.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+result.wasSuccessful()
+!expectedException.isInstance(f.getException())
+result.getFailures().size() != expectedFailureCount
+!expectedExceptions[i].isInstance(f.getException())
+methodName.equals(f.getDescription().getMethodName()) && expectedException.isInstance(f.getException())
+i != successCount
+failures.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/TestBase.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/TestBaseTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/Stopwatch.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+startNanos != null
+elapsedNanos <= expectedNanos
+elapsedNanos >= expectedNanos
+startNanos == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/SafeJUnitRuleTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/SimpleClassGenerator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/VmArgAssumptions.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+inputArgument.contains(vmArg)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/ThrowableAssert.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!exceptionType.isInstance(reportedException)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/ClassLoaders.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+Modifier.isStatic(modifiers) && Modifier.isFinal(modifiers)
+declaredField.getType() == field.getType()
+!classShouldBePrivate(name) || classShouldBeExcluded(name)
+name.startsWith(prefix)
+name.startsWith(prefix)
+classShouldBeExcluded(name)
+name.startsWith(prefix)
+classDefinition != null
+uri.getScheme().equalsIgnoreCase("file")
+uri.getScheme().equalsIgnoreCase(InMemoryClassLoader.SCHEME)
+excludes(qualifiedName, qualifiedNameSubstring)
+file.isDirectory()
+file.getName().endsWith(".class")
+excludes(qualifiedName, packageFilters)
+qualifiedName.contains(filter)
+While
+roots.hasMoreElements()
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/Conditions.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+o instanceof Class
+m.isBridge() && m.getName().equals(methodName)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/ClassLoadersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/async/AsyncTesting.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+threads.size() == MAX_THREADS
+!cleanStop
+!problems.isEmpty()
+While
+!threads.isEmpty()
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/async/AsyncTestingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/SafeJUnitRule.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+failureAssert == null
+failureAssert != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/SimplePerRealmReloadingClassLoader.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+reloadClassPredicate.acceptReloadOf(qualifiedClassName)
+!classHashMap.containsKey(qualifiedClassName)
+instance instanceof Callable
+instance instanceof Callable
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/SimpleSerializationUtil.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/Assertor.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitoutil/ConcurrentTesting.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/PlaygroundWithDemoOfUnclonedParametersProblemTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+isOkToImport(importType, date)
+importLogBean != null
+importLogBean != null
+this == o
+!(o instanceof ImportLogBean)
+importType != that.importType
+status != that.status
+currentDate != null ? !currentDate.equals(that.currentDate) : that.currentDate != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/internal/junit/UnusedStubbingsFinderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/internal/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/internal/debugging/LocationImplTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/puzzlers/BridgeMethodPuzzleTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/puzzlers/OverloadingPuzzleTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/BasicVerificationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerificationUsingMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/CustomVerificationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+data.getTarget() != target
+target.getInvocation().getMethod().getName().equals(invocation.getMethod().getName())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/BasicVerificationInOrderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerificationInOrderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerificationInOrderWithTimeoutTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/ExactNumberOfTimesVerificationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerificationInOrderWithCallsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerificationWithAfterAndCaptorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/SelectedMocksInOrderVerificationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerifyPrintsAllInvocationsOnErrorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerificationWithAfterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/RelaxedVerificationInOrderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerificationWithTimeoutTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/DescriptiveMessagesWhenVerificationFailsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/OrdinaryVerificationPrintsAllInteractionsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/NoMoreInteractionsVerificationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerificationOnMultipleMocksUsingMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/AtLeastXVerificationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/OnlyVerificationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerificationStartedListenerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/PrintingVerboseTypesWithArgumentsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerificationInOrderMixedWithOrdiraryVerificationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/DescriptiveMessagesOnVerificationInOrderErrorsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/AtMostXVerificationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/DescriptiveMessagesWhenTimesXVerificationFailsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/VerificationExcludingStubsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/verification/FindingRedundantInvocationsInOrderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/misuse/DetectingFinalMethodsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/misuse/CleaningUpPotentialStubbingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/misuse/ExplicitFrameworkValidationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/misuse/RestrictedObjectMethodsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/misuse/SpyStubbingMisuseTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/misuse/InvalidUsageTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/misuse/DescriptiveMessagesOnMisuseTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/misuse/DetectingMisusedMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/IMethods.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/strictness/StrictnessPerMockTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/strictness/ProductionCode.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/strictness/StrictnessWhenRuleStrictnessIsUpdatedTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/strictness/StrictnessPerStubbingWithRunnerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/strictness/StrictnessPerStubbingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/strictness/LenientMockAnnotationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/strictness/PotentialStubbingSensitivityTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/strictness/StrictnessWithRulesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stacktrace/StackTraceFilteringTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stacktrace/PointingStackTraceToActualInvocationInOrderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stacktrace/ClickableStackTracesWhenFrameworkMisusedTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stacktrace/ClickableStackTracesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stacktrace/PointingStackTraceToActualInvocationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stacktrace/ModellingDescriptiveMessagesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stacktrace/PointingStackTraceToActualInvocationChunkInOrderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/InheritedGenericsPolimorphicCallTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/NPEOnAnyClassMatcherAutounboxTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/CaptorAnnotationAutoboxingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/EqualsWithDeltaTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/SpyShouldHaveNiceNameTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/creation/PublicMethodInParentWithNonPublicTypeInSignatureTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/creation/ConstructorInvokingMethodShouldNotRaiseExceptionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/creation/ShouldAllowInlineMockCreationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/creation/api/PublicClass.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/creation/otherpackage/PublicParentClass.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/MockitoStubbedCallInAnswerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/MockitoRunnerBreaksWhenNoTestMethodsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/AIOOBExceptionWithAtLeastTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/VerifyingWithAnExtraCallToADifferentMockTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/MultithreadedStubbingHalfManualTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!toMock.getValues(0).isEmpty()
+While
+true
+true
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/FinalHashCodeAndEqualsRaiseNPEInInitMocksTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/EnabledMockingInterfaceCloneMethodTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/ShouldOnlyModeAllowCapturingArgumentsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/ClassCastExOnVerifyZeroInteractionsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/GenericsMockitoAnnotationsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/MultipleInOrdersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/CovariantOverrideTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/DiamondInheritanceIsConfusingMockitoTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/ActualInvocationHasNullArgumentNPEBugTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/varargs/VarargsErrorWhenCallingRealMethodTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/varargs/VarargsNotPlayingWithAnyObjectTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/varargs/VarargsAndAnyObjectPicksUpExtraInvocationsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/NPEWithCertainMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/ShouldNotDeadlockAnswerExecutionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!threads.awaitTermination(1000, TimeUnit.MILLISECONDS)
+!threads.awaitTermination(500, TimeUnit.MILLISECONDS)
+While
+counter.get() != 0
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/StubbingMocksThatAreConfiguredToReturnMocksTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/injection/InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/injection/InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/injection/ParentTestMockInjectionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/injection/ShouldNotTryToInjectInFinalOrStaticFieldsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/injection/ChildWithSameParentFieldInjectionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/injection/Issue353InjectionMightNotHappenInCertainConfigurationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/ConcurrentModificationExceptionOnMultiThreadedVerificationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/ArgumentCaptorDontCapturePreviouslyVerifiedTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/IOOBExceptionShouldNotBeThrownWhenNotCodingFluentlyTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/AtLeastMarksAllInvocationsVerified.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/FillInStackTraceScenariosTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/ImplementationOfGenericAbstractMethodNotInvokedOnSpyTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/ConfusedSignatureTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/ListenersLostOnResetMockTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/BridgeMethodsHitAgainTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/ShouldMocksCompareToBeConsistentWithEqualsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/CompareMatcherTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/NPEWhenMockingThrowablesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/deepstubs/DeepStubsWronglyReportsSerializationProblemsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/bugs/deepstubs/DeepStubFailingWhenGenericNestedAsRawTypeTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/examples/use/ExampleTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/examples/use/Article.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/examples/use/ArticleManager.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/examples/use/ArticleDatabase.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/examples/use/ArticleCalculator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrunner/StrictStubsRunnerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrunner/SilentRunnerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+System.currentTimeMillis() > 0
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrunner/ModellingVerboseMockitoTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrunner/DeepStubbingWithJUnitRunnerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrunner/StubbingWarningsJUnitRunnerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrunner/VerboseMockitoRunnerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrunner/JUnit45RunnerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrunner/UnusedStubsExceptionMessageTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrunner/StrictRunnerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrunner/Filters.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StubbingWithAdditionalAnswersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StrictStubbingEndToEndTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StubbingWithThrowablesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/ReturningDefaultValuesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StrictStubbingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/SmartNullsStubbingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/BasicStubbingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StubbingWarningsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StubbingWithDelegateVarArgsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StubbingUsingDoReturnTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StubbingReturnsSelfTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/CallingRealMethodTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/SmartNullsGenericBugTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StubbingConsecutiveAnswersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StubbingWithCustomAnswerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StubbingWithExtraAnswersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StubbingWithBadThrowablesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/StubbingWithDelegateTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/DeepStubbingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/stubbing/CloningParameterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+this == obj
+obj == null
+getClass() != obj.getClass()
+!getOuterType().equals(other.getOuterType())
+emailSent != other.emailSent
+name == null
+other.name != null
+!name.equals(other.name)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/serialization/StrictStubsSerializableTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/serialization/ParallelSerializationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/serialization/DeepStubsSerializableTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/serialization/AcrossClassLoaderSerializationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/constructor/CreatingMocksWithConstructorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/customization/BDDMockitoTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/jls/JLS_15_12_2_5Test.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/basicapi/MocksCreationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/basicapi/UsingVarargsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/basicapi/MockingMultipleInterfacesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/basicapi/MockAccessTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/basicapi/ReplacingObjectMethodsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/basicapi/MocksSerializationForAnnotationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/basicapi/ObjectsSerializationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/basicapi/ResetTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/basicapi/MocksSerializationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/basicapi/ResetInvocationsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/VarargsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/VerificationAndStubbingUsingMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/CustomMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/NewMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/MatchersMixedWithRawArgumentsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/MatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/MoreMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/ReflectionMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/AnyXMatchersAcceptNullsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/CustomMatcherDoesYieldCCETest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/CapturingArgumentsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/GenericMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/InvalidUseOfMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/matchers/HamcrestMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/MethodsImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/debugging/VerificationListenerCallBackTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/debugging/StubbingLookupListenerCallbackTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/debugging/InvocationListenerCallbackTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/debugging/Foo.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/debugging/NewMockito.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/debugging/VerboseLoggingOfInvocationsOnMockTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/debugging/InvocationsPrinterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/plugins/MockitoPluginsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrule/MockitoJUnitRuleTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrule/StubbingWarningsMultiThreadingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrule/MutableStrictJUnitRuleTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrule/InvalidTargetMockitoJUnitRuleTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrule/RuleTestWithFactoryMethodTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrule/StubbingWarningsJUnitRuleTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrule/RuleTestWithParameterConstructorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrule/StrictJUnitRuleTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrule/VerificationCollectorImplTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/junitrule/LenientJUnitRuleTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/CompilationWarningsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/performance/StubOnlyAvoidMemoryConsumptionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/performance/LoadsOfMocksTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/CaptorAnnotationUnhappyPathTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/SpyAnnotationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/AnnotationsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/WrongSetOfAnnotationsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/CaptorAnnotationBasicTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/DeprecatedAnnotationEngineApiTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/SpyAnnotationInitializedInBaseClassTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/SpyInjectionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/MockInjectionUsingConstructorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/MockInjectionUsingConstructorIssue421Test.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/CaptorAnnotationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/MockInjectionUsingSetterOrPropertyTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/annotation/InjectionOfInlinedMockDeclarationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/session/MockitoSessionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+mockito != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/configuration/ClassToBeMocked.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/configuration/ClassCacheVersusClassReloadingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/configuration/CustomizedAnnotationForSmartMockTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+field.isAnnotationPresent(SmartMock.class)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/packageprotected/MockingPackageProtectedTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/packageprotected/PackageProtected.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/PlaygroundTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/spies/PartialMockingWithSpiesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/spies/SpyingOnInterfacesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/spies/SpyingOnRealObjectsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitousage/spies/StubbingSpiesDoesNotYieldNPETest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/concurrentmockito/ThreadsRunAllTestsHalfManualTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!result.wasSuccessful()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/concurrentmockito/ThreadsShareGenerouslyStubbedMockTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/concurrentmockito/ThreadVerifiesContinuouslyInteractingMockTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/concurrentmockito/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/concurrentmockito/ThreadsShareAMockTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/concurrentmockito/VerificationInOrderFromMultipleThreadsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/AnnotationsAreCopiedFromMockedTypeTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+annotationClass.isAssignableFrom(firstParamAnnotation.annotationType())
+methodName.equals(method.getName())
+fieldName.equals(field.getName())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/junit/TestableJUnitRunner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/listeners/StubbingLookupNotifierTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/listeners/VerificationStartedNotifierTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/junit/UnusedStubbingsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/junit/JUnitRuleTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/junit/StubbingArgMismatchesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/junit/ArgMismatchFinderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/junit/ExceptionFactoryTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/junit/util/JUnitFailureHackerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/creation/InterfaceOverrideTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/creation/MockSettingsImplTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/creation/DelegatingMethodTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMakerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+extraInterfaces.length > 0
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/creation/bytebuddy/AbstractByteBuddyMockMakerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+extraInterfaces.length > 0
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMakerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/creation/bytebuddy/TypeCachingMockBytecodeGeneratorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/creation/bytebuddy/ByteBuddyMockMakerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/creation/instance/ConstructorInstantiatorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/InOrderImplTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/invocation/InvocationMarkerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/invocation/TypeSafeMatchingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/invocation/MatcherApplicationStrategyTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/invocation/InvocationMatcherTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/invocation/mockref/MockWeakReferenceTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/invocation/InvocationsFinderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/invocation/SerializableMethodTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/invocation/InvocationBuilder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+method == null
+argTypes == null
+arg == null
+verified
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/DescriptionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/OnlyTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/NoMoreInteractionsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/argumentmatching/ArgumentMatchingToolTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/DummyVerificationMode.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/VerificationWithDescriptionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/DefaultRegisteredInvocationsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/SmartPrinterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/VerificationOverTimeImplTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/NoInteractionsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsCheckerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/checkers/NumberOfInvocationsInOrderCheckerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+lastIndex != -1
+While
+lastIndex != -1
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/checkers/MissingInvocationCheckerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/checkers/MissingInvocationInOrderCheckerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/checkers/NumberOfInvocationsCheckerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+lastIndex != -1
+While
+lastIndex != -1
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/verification/VerificationDataImplTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/InvalidStateDetectionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/InvocationContainerImplStubbingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/answers/CallsRealMethodsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/answers/ReturnsArgumentAtTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/answers/DefaultAnswerValidatorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/answers/DoesNothingTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/answers/ThrowsExceptionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/answers/ReturnsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/answers/AnswersWithDelayTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/answers/InvocationInfoTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/defaultanswers/HasPrimitiveMethods.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNullsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValuesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMocksTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/defaultanswers/ForwardsInvocationsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsGenericDeepStubsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValuesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/stubbing/InvocationContainerImplTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+exceptions.size() != 0
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/handler/InvocationNotifierHandlerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/handler/MockHandlerFactoryTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/handler/MockHandlerImplTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/runners/DefaultInternalRunnerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/runners/util/TestMethodsFinderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/runners/util/RunnerProviderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/hamcrest/MatcherGenericTypeExtractorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/matchers/CapturingMatcherTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/matchers/InstanceOfTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/matchers/MatchersToStringTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/matchers/text/ValuePrinterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/matchers/text/MatcherToStringTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/matchers/apachecommons/EqualsBuilderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+o == null
+o == this
+o.getClass() != getClass()
+o == null
+o == this
+o.getClass() != getClass()
+oToChange instanceof TestSubObject
+oToChange instanceof TestSubObject
+o == this
+o instanceof TestACanEqualB
+o instanceof TestBCanEqualA
+o == this
+o instanceof TestACanEqualB
+o instanceof TestBCanEqualA
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/matchers/ComparableMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/matchers/EqualityTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/matchers/StringMatchersTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/matchers/EqualsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/matchers/MatchersPrinterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/reporting/PluralizerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/debugging/VerboseMockInvocationLoggerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/debugging/WarningsFinderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/debugging/LoggingListenerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/progress/TimesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/progress/VerificationModeBuilder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/progress/ThreadSafeMockingProgressTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/progress/AtLeastTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/progress/MockingProgressImplTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/MockCreationValidatorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/StringUtilTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/MockSettingsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/PlatformTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/ObjectMethodsGuruTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/MockUtilTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/collections/ListUtilTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/collections/IdentitySetTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSetTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/SimpleMockitoLoggerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/GenericMasterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/LenientCopyToolTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/FieldReaderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/AccessibilityChangerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/GenericMetadataSupportTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+other instanceof ParameterizedType
+this == otherParamType
+typeVariableTypeEntry.getKey().getName().equals(typeVariableName)
+method.getName().contains(methodName) && protect_against_different_jdk_ordering_avoiding_bridge_methods
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/ParameterizedConstructorInstantiatorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/BeanPropertySetterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/DummyParentClassForTests.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/DummyClassForTests.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/GenericArrayReturnTypeTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/FieldsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/SuperTypesLastSorterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+o1.equals(o2)
+l.get(0) == o1
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/GenericTypeExtractorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/reflection/FieldInitializerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/TimerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/ChecksTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/DefaultMockingDetailsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/PrimitivesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/SimpleMockitoLogger.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+loggedInfo.length() != 0
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/io/IOUtilTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/util/MockNameImplTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/exceptions/stacktrace/ConditionalStackTraceFilterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/exceptions/stacktrace/StackTraceFilterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/exceptions/ReporterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/exceptions/util/ScenarioPrinterTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/framework/DefaultMockitoFrameworkTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/session/DefaultMockitoSessionBuilderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/configuration/ClassPathLoaderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/configuration/ConfigurationAccess.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/configuration/GlobalConfigurationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/configuration/injection/ConstructorInjectionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/configuration/injection/SimpleArgumentResolverTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/configuration/plugins/PluginFileReaderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/configuration/plugins/DefaultMockitoPluginsTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/configuration/plugins/PluginLoaderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/configuration/plugins/PluginFinderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/configuration/MockInjectionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/internal/AllInvocationsFinderTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/verification/TimeoutTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/verification/NegativeDurationTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/MockitoTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/runners/ConsoleSpammingMockitoJUnitRunnerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/InvocationFactoryTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/ArgumentCaptorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/StaticMockingExperimentTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/exceptions/stacktrace/StackTraceCleanerTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/exceptions/base/MockitoSerializationIssueTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/exceptions/base/StackTraceBuilder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/exceptions/base/MockitoExceptionTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/exceptions/base/TraceBuilder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/exceptions/base/MockitoAssertionErrorTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/configuration/MockitoConfiguration.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+overriddenDefaultAnswer == null
+this.overriddenEngine != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockito/StateMaster.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitointegration/NoJUnitDependenciesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitointegration/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/test/java/org/mockitointegration/NoByteCodeDependenciesTest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/InjectMocks.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/Matchers.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/ArgumentCaptor.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/NotExtensible.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/BDDMockito.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/listeners/VerificationStartedListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/listeners/VerificationListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/listeners/MockCreationListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/listeners/StubbingLookupListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/listeners/MethodInvocationReport.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/listeners/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/listeners/InvocationListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/listeners/VerificationStartedEvent.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/listeners/MockitoListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/listeners/StubbingLookupEvent.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/junit/VerificationCollector.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/junit/MockitoJUnitRunner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/junit/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/junit/MockitoRule.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/junit/MockitoJUnit.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/creation/instance/Instantiator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/creation/instance/InstantiationException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/listeners/AutoCleanableListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/listeners/VerificationStartedNotifier.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+listeners.isEmpty()
+mock == null
+!mockingDetails.isMock()
+!originalType.isInstance(mock)
+!iface.isInstance(mock)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/listeners/StubbingLookupNotifier.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+listeners.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/MockitoTestListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/DefaultStubbingLookupListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+actualStrictness != Strictness.STRICT_STUBS
+event.getStubbingFound() == null
+!argMismatchStubbings.isEmpty()
+UnusedStubbingReporting.shouldBeReported(s) && s.getInvocation().getMethod().getName().equals(invocation.getMethod().getName()) && // and we don't flag it as mismatch:
+!s.getInvocation().getLocation().getSourceFile().equals(invocation.getLocation().getSourceFile())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/ArgMismatchFinder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+i.stubInfo() != null
+!stubbing.wasUsed() && stubbing.getInvocation().getMock() == i.getMock() && stubbing.getInvocation().getMethod().getName().equals(i.getMethod().getName())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/UniversalTestListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+event.getFailure() == null && !stubbingLookupListener.isMismatchesReported()
+event.getFailure() != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/UnusedStubbingsFinder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!UnusedStubbingReporting.shouldBeReported(s)
+!locationsOfUsedStubbings.contains(location)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/UnusedStubbings.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+unused.isEmpty()
+!candidate.wasUsed()
+unused.isEmpty()
+invocations.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/MismatchReportingTestListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+event.getFailure() != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/StrictStubsRunnerTestListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/StubbingHint.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/DefaultTestFinishedEvent.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/ExceptionFactory.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/StubbingArgMismatches.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+matchingInvocations == null
+mismatches.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/NoOpTestListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/util/JUnitFailureHacker.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+isEmpty(warnings)
+f == null
+While
+f == null && clazz != Object.class
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/VerificationCollectorImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+this.numberOfFailures > 0
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/UnnecessaryStubbingsReporter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+unused.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/JUnitRule.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+session == null
+testFailure != null
+session != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/junit/TestFinishedEvent.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/DelegatingMethod.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+this == o
+o instanceof DelegatingMethod
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/settings/CreationSettings.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/MockSettingsImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+extraInterfaces == null || extraInterfaces.length == 0
+i == null
+!i.isInterface()
+defaultAnswer == null
+outerClassInstance == null
+!invocationListenersContainsType(VerboseMockInvocationLogger.class)
+listeners == null
+listeners.length == 0
+listener == null
+listener.getClass().equals(clazz)
+settings.isSerializable()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!instrumentation.isRetransformClassesSupported()
+inputStream == null
+INITIALIZATION_ERROR != null
+instance instanceof MockAccess
+mockFeatures.getTypeToMock().isArray()
+Modifier.isFinal(mockFeatures.getTypeToMock().getModifiers())
+Modifier.isPrivate(mockFeatures.getTypeToMock().getModifiers())
+interceptor == null
+mock instanceof MockAccess
+mockable()
+type.isPrimitive()
+EXCLUDES.contains(type)
+While
+(length = inputStream.read(buffer)) != -1
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+preloads == null
+mocked.add(type)
+!types.isEmpty()
+throwable != null
+redefineModule == null
+!modules.contains(module) && !(Boolean) canRead.invoke(module, target)
+subclassingRequired && !features.mockedType.isArray() && !features.mockedType.isPrimitive() && Modifier.isFinal(features.mockedType.getModifiers())
+mocked.add(type)
+classBeingRedefined == null || !mocked.contains(classBeingRedefined) || EXCLUDES.contains(classBeingRedefined)
+methodList.size() == 1 && methodList.getOnly().getParameters().hasExplicitMetaData()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+cause instanceof RuntimeException
+this == object
+object == null || getClass() != object.getClass()
+!super.equals(object)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+localMock || loader instanceof MultipleParentClassLoader && !isComingFromJDK(features.mockedType)
+localMock
+exported
+features.serializableMode == SerializableMode.ACROSS_CLASSLOADERS
+readReplace != null
+name.startsWith(CODEGEN_PACKAGE) || classLoader instanceof MultipleParentClassLoader
+!Modifier.isPublic(type.getModifiers())
+While
+exported && it.hasNext()
+superType != null
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/MockAccess.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/BytecodeGenerator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/MockFeatures.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/ModuleHandler.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+source.getPackage() == null
+source.getPackage() == null
+source.getPackage() == null
+classLoader == InjectionBase.class.getClassLoader() && InjectionBase.class.getPackage().getName().equals(packageName)
+type.getClassLoader() == classLoader
+!needsExport && !needsRead
+classLoader == null
+targetVisible
+needsExport
+needsRead
+While
+!targetVisible && classLoader != null
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/ClassCreatingMockMaker.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassLoader.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+mockFeatures.getTypeToMock().isArray()
+Modifier.isPrivate(mockFeatures.getTypeToMock().getModifiers())
+!(mock instanceof MockAccess)
+mockable()
+type.isPrimitive()
+Modifier.isFinal(type.getModifiers())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/inject/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+mock == INSTANCE
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+interceptor == null
+interceptor == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!Boolean.getBoolean("org.mockito.internal.noUnsafeInjection") && ClassInjector.UsingReflection.isAvailable()
+ClassInjector.UsingLookup.isAvailable()
+localMock
+exception.getCause() instanceof IllegalAccessException
+classLoader == InjectionBase.class.getClassLoader()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+mockIsCurrentlyBeingReplaced()
+notMarkedAsAMockitoMock(readObject())
+CrossClassLoaderSerializableMock.class.isAssignableFrom(cl)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/bytebuddy/MockMethodAdvice.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+dispatcher == null || !dispatcher.isMocked(mock) || dispatcher.isOverridden(mock, origin)
+mocked != null
+interceptor == null
+instance instanceof Serializable
+methodGraph == null
+!Modifier.isPublic(origin.getDeclaringClass().getModifiers() & origin.getModifiers())
+!Modifier.isPublic(method.getDeclaringClass().getModifiers() & method.getModifiers())
+!(mockMethodDispatcher instanceof MockMethodAdvice)
+value == get()
+skipped
+skipped
+mockMethodAdvice != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/util/MockitoMethodProxy.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/util/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/SuspendMethod.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+n > 0 && isContinuationType(parameterTypes[n - 1])
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/instance/InstantiatorProvider2Adapter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/instance/Instantiator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/instance/ConstructorInstantiator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+paramsMatch(types, params)
+matchingConstructors.size() == 1
+matchingConstructors.size() == 0
+hasOuterClassInstance
+hasOuterClassInstance
+constructorArgs.length == 0 || (hasOuterClassInstance && constructorArgs.length == 1)
+params.length != types.length
+params[i] == null
+types[i].isPrimitive()
+(!types[i].isPrimitive() && !types[i].isInstance(params[i])) || (types[i].isPrimitive() && !types[i].equals(Primitives.primitiveTypeOf(params[i].getClass())))
+!paramType.isPrimitive()
+paramType != existingParamType
+paramType.isAssignableFrom(existingParamType)
+!existingHasBetterParam
+newHasBetterParam || !existingHasBetterParam
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/instance/DefaultInstantiatorProvider.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+settings != null && settings.getConstructorArgs() != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/instance/InstantiationException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/instance/InstantiatorProviderAdapter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/creation/instance/ObjenesisInstantiator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/MockitoCore.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!MockSettingsImpl.class.isInstance(settings)
+stubbing == null
+mock == null
+!mockingDetails.isMock()
+mock == null
+mock == null
+mocks == null || mocks.length == 0
+getMockHandler(mock).getMockSettings().isStubOnly()
+mocks == null || mocks.length == 0
+mock == null
+!isMock(mock)
+in.stubInfo() != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/RealMethod.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/SerializableMethod.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+method != null
+this == obj
+obj == null
+getClass() != obj.getClass()
+declaringClass == null
+other.declaringClass != null
+!declaringClass.equals(other.declaringClass)
+methodName == null
+other.methodName != null
+!methodName.equals(other.methodName)
+!Arrays.equals(parameterTypes, other.parameterTypes)
+returnType == null
+other.returnType != null
+!returnType.equals(other.returnType)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/AbstractAwareMethod.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/InvocationMarker.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/InterceptedInvocation.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!realMethod.isInvokable()
+o == null || !o.getClass().equals(this.getClass())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+matchingType == MATCH_EACH_VARARGS_WITH_LAST_MATCHER
+matchingType == ERROR_UNSUPPORTED_NUMBER_OF_MATCHERS
+!action.apply(matcher, argument)
+expandedArguments == matcherCount
+rawArguments == matcherCount && isLastMatcherVarargMatcher(matchers)
+argumentMatcher instanceof HamcrestArgumentMatcher<?>
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/mockref/MockStrongReference.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+deserializeAsWeakRef
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/mockref/MockWeakReference.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+ref == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/mockref/MockReference.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/InvocationMatcher.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+matchers.isEmpty()
+!wantedMethodName.equals(candidateMethodName)
+candidate.isVerified()
+getInvocation().getMock() != candidate.getMock()
+hasSameMethod(candidate)
+m1.getName() != null && m1.getName().equals(m2.getName())
+matcher instanceof CapturesArguments
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/finder/AllInvocationsFinder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/finder/VerifiableInvocationsFinder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+wantedCount != firstChunk.size()
+wanted.matches(invocation)
+!firstChunk.isEmpty()
+wanted.matches(invocation)
+!wanted.hasSimilarMethod(invocation)
+firstSimilar == null
+wanted.hasSameMethod(invocation)
+!i.isVerified() && mockIsValid
+invocations.isEmpty()
+verifiedOnly.isEmpty()
+orderingContext.isVerified(i)
+!context.isVerified(i)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/ArgumentsProcessor.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+args != null && args.length > nParams
+!isVarArgs || isNullOrEmpty(args) || args[args.length - 1] != null && !args[args.length - 1].getClass().isArray()
+args[nonVarArgsCount] == null
+arg != null && arg.getClass().isArray()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/DefaultInvocationFactory.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+settings.isSerializable()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/MockitoMethod.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/InvocationComparator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/StubInfoImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/UnusedStubsFinder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!s.wasUsed()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/TypeSafeMatching.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+argument == null
+isMatchesMethod(method)
+method.getParameterTypes().length != 1
+method.isBridge()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/ArgumentMatcherAction.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/invocation/MatchersBinder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!lastMatchers.isEmpty()
+expectedMatchersSize != recordedMatchersSize
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/InOrderContextImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/InOrderWrapper.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/VerificationDataImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+wanted == null
+isToStringMethod(wanted.getMethod())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/MockAwareVerificationMode.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/Only.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+invocations.size() != 1 && !chunk.isEmpty()
+invocations.size() != 1 || chunk.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/Calls.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+wantedNumberOfInvocations <= 0
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+matchers.size() != arguments.length
+m instanceof ContainsExtraTypeInfo && !safelyMatches(m, arguments[i]) && toStringEquals(m, arguments[i]) && !((ContainsExtraTypeInfo) m).typeMatches(arguments[i])
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/argumentmatching/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/NoMoreInteractions.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+unverified != null
+unverified != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/DefaultRegisteredInvocations.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!invocations.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/AtLeast.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+wantedNumberOfInvocations < 0
+wantedCount == 1
+wantedCount == 1
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/VerificationOverTimeImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+returnOnSuccess
+error != null
+canRecoverFromFailure(delegate)
+While
+timer.isCounting()
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/VerificationModeFactory.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/Description.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/VerificationEventImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/VerificationWrapperInOrderWrapper.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+verificationMode instanceof VerificationInOrderMode
+verificationMode instanceof VerificationOverTimeImpl
+verificationOverTime.isReturnOnSuccess()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/api/VerificationDataInOrderImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/api/VerificationDataInOrder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/api/VerificationData.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/api/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/api/InOrderContext.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/api/VerificationInOrderMode.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/VerificationWrapper.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/AtMost.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+maxNumberOfInvocations < 0
+foundSize > maxNumberOfInvocations
+i.isVerified()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/NoInteractions.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!invocations.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/SingleRegisteredInvocation.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/Times.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+wantedNumberOfInvocations < 0
+wantedCount > 0
+wantedCount > 0
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+wantedCount > actualCount
+wantedCount > actualCount
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/checkers/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/checkers/MissingInvocationChecker.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!actualInvocations.isEmpty()
+similar == null
+!chunk.isEmpty()
+previousInOrder != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+wantedCount > actualCount
+wantedCount == 0 && actualCount > 0
+wantedCount < actualCount
+wantedCount > actualCount
+wantedCount < actualCount
+next == null
+While
+actualCount < wantedCount
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/checkers/AtLeastDiscrepancy.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/verification/RegisteredInvocations.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/InOrderImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!mocksToBeVerifiedInOrder.contains(mock)
+mode instanceof VerificationWrapper
+!(mode instanceof VerificationInOrderMode)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/BaseStubbing.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+values == null
+throwables == null
+stubbing == null
+throwableType == null
+nextToBeThrown == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/DefaultLenientStubber.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/ConsecutiveStubbing.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+answer instanceof ValidableAnswer
+isConsecutive
+s.matches(invocation)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/ReturnsElementsOf.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+elements == null
+elements.size() == 1
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/ReturnsArgumentAt.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+wantedArgumentPosition != LAST_ARGUMENT && wantedArgumentPosition < 0
+wantedArgIndexIsVarargAndSameTypeAsReturnType(invocation.getMethod(), argumentPosition)
+wantedArgumentPosition == LAST_ARGUMENT
+!wantedArgumentPositionIsValidForInvocation(invocation, argumentPosition)
+!invocationInfo.isValidReturnType(inferredArgumentType)
+argumentPosition < 0
+!invocation.getMethod().isVarArgs()
+!invocation.getMethod().isVarArgs()
+argumentType.isPrimitive() || argumentValue == null
+argumentIndex < varargIndex
+wantedArgIndexIsVarargAndSameTypeAsReturnType(invocation.getMethod(), argumentIndex)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/Returns.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+invocationInfo.isVoid()
+returnsNull() && invocationInfo.returnsPrimitive()
+!returnsNull() && !invocationInfo.isValidReturnType(returnType())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/AnswersWithDelay.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+answer instanceof ValidableAnswer
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/ClonesArguments.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+from != null
+from.getClass().isArray()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/DoesNothing.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!new InvocationInfo(invocation).isVoid()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/CallsRealMethods.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+Modifier.isAbstract(invocation.getMethod().getModifiers())
+new InvocationInfo(invocation).isAbstract()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/ThrowsException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+throwable == null
+MockUtil.isMock(throwable)
+t == null
+throwable == null
+throwable instanceof RuntimeException || throwable instanceof Error
+!new InvocationInfo(invocation).isValidException(throwable)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/InvocationInfo.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+exception.isAssignableFrom(throwableClass)
+method.getReturnType().isPrimitive() || clazz.isPrimitive()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/AnswerFunctionalInterfaces.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/answers/DefaultAnswerValidator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+returnedValue != null && !invocationInfo.isValidReturnType(returnedValue.getClass())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/UnusedStubbingReporting.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+defaultReturnValue != null
+type == null
+isToStringMethod(currentInvocation.getMethod())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsDeepStubs.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!mockitoCore().isTypeMockable(rawType)
+rawType.equals(Object.class) && !returnTypeGenericMetadata.hasRawExtraInterfaces()
+container.getInvocationForStubbing().matches(stubbing.getInvocation())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/defaultanswers/TriesToReturnSelf.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+methodReturnType.isAssignableFrom(mockType)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+ret != null
+type == String.class
+type.isArray()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/defaultanswers/GloballyConfiguredAnswer.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/defaultanswers/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMocks.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+defaultReturnValue != null
+type == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/defaultanswers/RetrieveGenericsForDefaultAnswers.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+returnType instanceof TypeVariable
+type != null
+defaultReturnValue != null
+type != null
+!MOCKITO_CORE.isTypeMockable(type)
+result == null
+result != null
+result == null
+rawType == Object.class
+returnType.equals(argType)
+argument == null
+argType instanceof GenericArrayType
+returnType.equals(argType)
+While
+emptyValueForClass != null && result == null
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+isToStringMethod(invocation.getMethod())
+name.isDefault()
+isCompareToMethod(invocation.getMethod())
+Primitives.isPrimitiveOrWrapper(type)
+type == Iterable.class
+type == Collection.class
+type == Set.class
+type == HashSet.class
+type == SortedSet.class
+type == TreeSet.class
+type == LinkedHashSet.class
+type == List.class
+type == LinkedList.class
+type == ArrayList.class
+type == Map.class
+type == HashMap.class
+type == SortedMap.class
+type == TreeMap.class
+type == LinkedHashMap.class
+"java.util.Optional".equals(type.getName())
+"java.util.OptionalDouble".equals(type.getName())
+"java.util.OptionalInt".equals(type.getName())
+"java.util.OptionalLong".equals(type.getName())
+"java.util.stream.Stream".equals(type.getName())
+"java.util.stream.DoubleStream".equals(type.getName())
+"java.util.stream.IntStream".equals(type.getName())
+"java.util.stream.LongStream".equals(type.getName())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/defaultanswers/ForwardsInvocations.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!compatibleReturnTypes(mockMethod.getReturnType(), delegateMethod.getReturnType())
+mockMethod.getDeclaringClass().isAssignableFrom(delegatedObject.getClass())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/StubbedInvocationMatcher.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/StubberImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+mock == null
+!isMock(mock)
+toBeReturned == null
+toBeThrown == null
+toBeThrown == null
+e == null
+nextToBeThrown == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/StubbingComparator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/DoAnswerStyleStubbing.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/OngoingStubbingImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!invocationContainer.hasInvocationForPotentialStubbing()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/stubbing/StrictnessSelector.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+stubbing != null && stubbing.getStrictness() != null
+mockSettings.isLenient()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/handler/InvocationNotifierHandler.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/handler/MockHandlerImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+invocationContainer.hasAnswersForStubbing()
+verificationMode != null
+((MockAwareVerificationMode) verificationMode).getMock() == invocation.getMock()
+stubbing != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/handler/NotifiedMethodInvocationReport.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+this == o
+o == null || getClass() != o.getClass()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/handler/NullResultGuardian.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+result == null && returnType.isPrimitive()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/handler/MockHandlerFactory.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/runners/DefaultInternalRunner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+mockitoTestListener != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/runners/StrictRunner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!filterRequested && listener.isSuccessful()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/runners/InternalRunner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/runners/RunnerFactory.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!hasTestMethods(klass)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/runners/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/runners/util/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/runners/util/TestMethodsFinder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+m.isAnnotationPresent(Test.class)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/runners/util/RunnerProvider.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+runnerClass.getConstructors().length != 1
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/runners/util/FailureDetector.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/hamcrest/MatcherGenericTypeExtractor.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/hamcrest/HamcrestArgumentMatcher.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/And.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/CompareEqual.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/VarargMatcher.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/EqualsWithDelta.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+wanted == null ^ actual == null
+wanted == actual
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/LessThan.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/InstanceOf.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/GreaterThan.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/CompareTo.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+actual == null
+!actual.getClass().isInstance(wanted)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/Equality.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+o1 == o2
+o1 == null || o2 == null
+isArray(o1)
+!areEqual(Array.get(o1, i), Array.get(o2, i))
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/text/MatcherToString.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+isToStringMethod(m)
+While
+cls != Object.class
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/text/MatchersPrinter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+matcher instanceof ContainsExtraTypeInfo && printSettings.extraTypeInfoFor(i)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/text/FormattedText.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/text/ValuePrinter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+value == null
+value instanceof String
+value instanceof Character
+value instanceof Long
+value instanceof Double
+value instanceof Float
+value instanceof Short
+value instanceof Byte
+value instanceof Map
+value.getClass().isArray()
+value instanceof FormattedText
+iterator.hasNext()
+start == null
+separator == null
+end == null
+values.hasNext()
+While
+iterator.hasNext()
+values.hasNext()
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/Same.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/apachecommons/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/apachecommons/ReflectionEquals.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/apachecommons/EqualsBuilder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+lhs == rhs
+lhs == null || rhs == null
+lhsClass.isInstance(rhs)
+!rhsClass.isInstance(lhs)
+rhsClass.isInstance(lhs)
+!lhsClass.isInstance(rhs)
+!excludedFieldList.contains(f.getName()) && (f.getName().indexOf('$') == -1) && (useTransients || !Modifier.isTransient(f.getModifiers())) && (!Modifier.isStatic(f.getModifiers()))
+!isEquals
+lhs == rhs
+lhs == null || rhs == null
+!lhsClass.isArray()
+lhs instanceof java.math.BigDecimal && rhs instanceof java.math.BigDecimal
+lhs.getClass() != rhs.getClass()
+lhs instanceof long[]
+lhs instanceof int[]
+lhs instanceof short[]
+lhs instanceof char[]
+lhs instanceof byte[]
+lhs instanceof double[]
+lhs instanceof float[]
+lhs instanceof boolean[]
+!isEquals
+!isEquals
+!isEquals
+lhs == rhs
+lhs == null || rhs == null
+lhs.length != rhs.length
+!isEquals
+lhs == rhs
+lhs == null || rhs == null
+lhs.length != rhs.length
+!isEquals
+lhs == rhs
+lhs == null || rhs == null
+lhs.length != rhs.length
+!isEquals
+lhs == rhs
+lhs == null || rhs == null
+lhs.length != rhs.length
+!isEquals
+lhs == rhs
+lhs == null || rhs == null
+lhs.length != rhs.length
+!isEquals
+lhs == rhs
+lhs == null || rhs == null
+lhs.length != rhs.length
+!isEquals
+lhs == rhs
+lhs == null || rhs == null
+lhs.length != rhs.length
+!isEquals
+lhs == rhs
+lhs == null || rhs == null
+lhs.length != rhs.length
+!isEquals
+lhs == rhs
+lhs == null || rhs == null
+lhs.length != rhs.length
+While
+testClass.getSuperclass() != null && testClass != reflectUpToClass
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/ArrayEquals.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+wanted == null || actual == null
+wanted instanceof boolean[] && actual instanceof boolean[]
+wanted instanceof byte[] && actual instanceof byte[]
+wanted instanceof char[] && actual instanceof char[]
+wanted instanceof double[] && actual instanceof double[]
+wanted instanceof float[] && actual instanceof float[]
+wanted instanceof int[] && actual instanceof int[]
+wanted instanceof long[] && actual instanceof long[]
+wanted instanceof short[] && actual instanceof short[]
+wanted instanceof Object[] && actual instanceof Object[]
+getWanted() != null && getWanted().getClass().isArray()
+i != array.length - 1
+array instanceof Object[]
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/ContainsExtraTypeInfo.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/NotNull.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/CapturingMatcher.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+arguments.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/Find.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/Contains.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/LocalizedMatcher.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/CapturesArguments.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/Matches.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/StartsWith.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/Equals.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+o == null || !this.getClass().equals(o.getClass())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/Or.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/GreaterOrEqual.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/LessOrEqual.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/EndsWith.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/Null.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/Any.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/matchers/Not.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/reporting/Pluralizer.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+x == 1
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/reporting/Discrepancy.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/reporting/SmartPrinter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/reporting/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/reporting/PrintSettings.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+isMultiline() || (!matchers.isEmpty() && invocationString.length() > MAX_LINE_LENGTH)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/debugging/WarningsFinder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+unstubbed.hasSimilarMethod(unused)
+While
+unusedIterator.hasNext()
+unstubbedIterator.hasNext()
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/debugging/InvocationsPrinter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+invocations.isEmpty() && stubbings.isEmpty()
+x == 1
+i.stubInfo() != null
+unused.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/debugging/WarningsCollector.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/debugging/Localized.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/debugging/MockitoDebuggerImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+i.stubInfo() != null
+invocations.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/debugging/FindingsListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/debugging/LocationImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+filtered == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/debugging/WarningsPrinterImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/debugging/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/debugging/VerboseMockInvocationLogger.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+methodInvocationReport.threwException()
+methodInvocationReport.getLocationOfStubbing() != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/debugging/LoggingListener.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+warnAboutUnstubbed
+argMismatchStubs.isEmpty() && unusedStubs.isEmpty() && unstubbedCalls.isEmpty()
+!argMismatchStubs.isEmpty()
+!unusedStubs.isEmpty()
+!unstubbedCalls.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/progress/MockingProgress.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/progress/ArgumentMatcherStorage.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/progress/ThreadSafeMockingProgress.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/progress/ArgumentMatcherStorageImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+matcherStack.isEmpty()
+!matcherStack.isEmpty()
+matcherStack.isEmpty()
+matcherStack.size() < subMatchersCount
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/progress/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/progress/SequenceNumber.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+listener instanceof VerificationListener
+verificationMode == null
+stubbingInProgress != null
+verificationMode != null
+listener instanceof MockCreationListener
+existing.getClass().equals(listener.getClass())
+existing instanceof AutoCleanableListener && ((AutoCleanableListener) existing).isListenerDirty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/Platform.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+isAndroid()
+matcher.matches()
+matcher.matches()
+vmName1 != null && current.contains(vmName1)
+vmName2 != null && current.contains(vmName2)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/StringUtil.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+lines.isEmpty()
+className.length() == 0
+decamelized.length() == 0
+deCameled.length() == 0
+While
+match.find()
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/MockCreationValidator.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!typeMockability.mockable()
+extraInterfaces == null
+classToMock == i
+classToMock == null || spiedInstance == null
+!classToMock.equals(spiedInstance.getClass())
+classToMock == null || delegatedInstance == null
+delegatedInstance.getClass().isAssignableFrom(classToMock)
+usingConstructor && mode == SerializableMode.ACROSS_CLASSLOADERS
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/Supplier.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/concurrent/DetachedThreadLocal.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+value != null
+value != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentSet.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/concurrent/WeakConcurrentMap.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+cleanerThread
+key == null
+value == null
+value != null
+previousValue != null
+key == null
+key == null || value == null
+key == null
+other instanceof LatentKey<?>
+other instanceof LatentKey<?>
+nextKey != null
+nextKey == null
+value == null
+While
+(reference = poll()) != null
+true
+iterator.hasNext()
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/collections/IdentitySet.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+existing == o
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/collections/HashCodeAndEqualsMockWrapper.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+this == o
+!(o instanceof HashCodeAndEqualsMockWrapper)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/collections/ListUtil.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!filter.isOut(t)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/collections/Sets.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+elements == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/collections/Iterables.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!iterator.hasNext()
+While
+in.hasMoreElements()
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!(o instanceof HashCodeAndEqualsSafeSet)
+iterator.hasNext()
+objects != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/FieldCopier.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/BeanPropertySetter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+writeMethod != null
+reportNoSetterFound
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/FieldInitializer.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+new FieldReader(fieldOwner, field).isNull()
+field.getType().isLocalClass()
+type.isMemberClass() && !isStatic(type.getModifiers())
+field.getType().isInterface()
+Modifier.isAbstract(field.getType().getModifiers())
+field.getType().isEnum()
+fieldInstance != null
+constructor != null
+argLengths == 0
+MockUtil.typeMockabilityOf(aClass).mockable()
+constructor != null
+constructor.getParameterTypes().length == 0
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/AccessibilityChanger.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/FieldInitializationReport.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/SuperTypesLastSorter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+ft != t && ft.isAssignableFrom(t)
+newPos == i
+While
+i < fields.size() - 1
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/FieldReader.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/FieldSetter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/InstanceField.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+fieldReader == null
+this == o
+o == null || getClass() != o.getClass()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/GenericMetadataSupport.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+typeToRegister == null || registeredTypes.contains(typeToRegister)
+type instanceof Class
+type instanceof ParameterizedType
+type instanceof BoundedType
+type instanceof TypeVariable
+!(classType instanceof ParameterizedType)
+actualTypeArgument instanceof TypeVariable
+contextualActualTypeParameters.containsKey(typeParameter)
+actualTypeArgument instanceof WildcardType
+typeParameter != actualTypeArgument
+!contextualActualTypeParameters.containsKey(typeVariable)
+typeParameter.getBounds()[0] instanceof TypeVariable
+wildCardBoundedType.firstBound() instanceof TypeVariable
+type instanceof TypeVariable
+arity == 0
+type instanceof Class
+type instanceof ParameterizedType
+type instanceof TypeVariable
+type instanceof Class
+type instanceof ParameterizedType
+rawType == null
+extraInterfaces != null
+type instanceof BoundedType
+type instanceof ParameterizedType
+type instanceof Class
+!rawType().equals(rawInterface)
+type instanceof TypeVariable
+type instanceof BoundedType
+!(actualFirstBound instanceof BoundedType)
+this == o
+o == null || getClass() != o.getClass()
+this == o
+o == null || getClass() != o.getClass()
+While
+!typesToRegister.isEmpty()
+genericReturnType instanceof GenericArrayType
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/GenericTypeExtractor.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+match.getSuperclass() == targetBaseClass
+genericInterface != null
+inter == targetBaseInterface
+deeper != null
+type instanceof ParameterizedType
+genericTypes.length > 0 && genericTypes[0] instanceof Class
+While
+match != Object.class
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/Fields.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+instanceField.isAnnotatedBy(annotation)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/LenientCopyTool.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+Modifier.isStatic(field.getModifiers())
+While
+fromClazz != Object.class
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/reflection/GenericMaster.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+generic instanceof ParameterizedType
+actual instanceof Class
+actual instanceof ParameterizedType
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/Checks.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+value == null
+additionalMessage != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/DefaultMockingDetails.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+toInspect == null
+!isMock()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/Primitives.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+clazz.isPrimitive()
+isPrimitiveOrWrapper(valueClass) && isPrimitiveOrWrapper(referenceType)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/MockNameImpl.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+mockName == null
+className.length() == 0
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/Timer.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+durationMillis < 0
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/JavaEightUtil.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+emptyOptional != null
+emptyOptionalDouble != null
+emptyOptionalInt != null
+emptyOptionalLong != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/io/IOUtil.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+closeable != null
+While
+(line = r.readLine()) != null
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/MockUtil.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+spiedInstance != null
+mock == null
+isMock(mock)
+mockName.isDefault() && mockSettings instanceof CreationSettings
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/ConsoleMockitoLogger.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/util/ObjectMethodsGuru.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/exceptions/VerificationAwareInvocation.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+CLEANER.isIn(element)
+GET_STACK_TRACE_ELEMENT != null
+CLEANER.isIn(stackTraceElement)
+shouldSkip
+CLEANER.isIn(stackTraceElement)
+shouldSkip
+CLEANER.isIn(e)
+While
+true
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/exceptions/stacktrace/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleanerProvider.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/exceptions/stacktrace/ConditionalStackTraceFilter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!config.cleansStackTrace()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleaner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+isFromMockitoRunner(e.getClassName()) || isFromMockitoRule(e.getClassName())
+isMockDispatcher(e.getClassName()) || isFromMockito(e.getClassName())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/exceptions/Reporter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+actualCalls == null || actualLocations == null || actualCalls.size() != actualLocations.size()
+invocations.isEmpty()
+locations == null
+details.getCause() == null
+parameterTypes.length == 0
+invocation.getMethod().isVarArgs() && i == parameterTypesLength - 1
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/exceptions/ExceptionIncludingMockitoWarnings.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/exceptions/util/ScenarioPrinter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+invocations.size() == 1
+!i.isVerified()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/framework/DefaultMockitoSession.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+failure == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/framework/DefaultMockitoFramework.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+mockMaker != null
+mockMaker != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/session/DefaultMockitoSessionBuilder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+testClassInstance != null
+testClassInstances != null
+testClassInstances.isEmpty()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/session/MockitoLoggerAdapter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/session/MockitoSessionLoggerAdapter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/InternalMockHandler.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/MockAnnotationProcessor.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+annotation.extraInterfaces().length > 0
+"".equals(annotation.name())
+annotation.serializable()
+annotation.stubOnly()
+annotation.lenient()
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/SpyAnnotationEngine.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+field.isAnnotationPresent(Spy.class) && !field.isAnnotationPresent(InjectMocks.class)
+MockUtil.isMock(instance)
+instance != null
+type.isInterface()
+typeIsPrivateAbstractInnerClass(type, modifiers)
+typeIsNonStaticInnerClass(type, modifiers)
+!enclosing.isInstance(testInstance)
+Modifier.isPrivate(constructor.getModifiers())
+field.isAnnotationPresent(u)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/GlobalConfiguration.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+GLOBAL_CONFIGURATION.get() == null
+config != null
+configuration.getClass() == DefaultMockitoConfiguration.class
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/DefaultInjectionEngine.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/CaptorAnnotationProcessor.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!ArgumentCaptor.class.isAssignableFrom(type)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/MockInjectionStrategy.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+nextStrategy != null
+processInjection(onField, fieldOwnedBy, mockCandidates)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/filter/TerminalMockCandidateFilter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+mocks.size() == 1
+!new BeanPropertySetter(injectee, candidateFieldToBeInjected).set(matchingMock)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/filter/MockCandidateFilter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/filter/OngoingInjector.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/filter/NameBasedCandidateFilter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+mocks.size() == 1 && anotherCandidateMatchesMockName(mocks, candidateFieldToBeInjected, allRemainingCandidateFields)
+candidateFieldToBeInjected.getName().equals(getMockName(mock).toString())
+!otherCandidateField.equals(candidateFieldToBeInjected) && otherCandidateField.getType().equals(candidateFieldToBeInjected.getType()) && otherCandidateField.getName().equals(mockName)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/filter/TypeBasedCandidateFilter.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+candidateFieldToBeInjected.getType().isAssignableFrom(mock.getClass())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/PropertyAndSetterInjection.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+e.getCause() instanceof InvocationTargetException
+injected != null
+While
+fieldClass != Object.class
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/scanner/MockScanner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+mockInstance != null
+isAnnotatedByMockOrSpy(field)
+isMockOrSpy(instance)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/scanner/InjectMocksScanner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+null != field.getAnnotation(InjectMocks.class)
+field.isAnnotationPresent(annotation)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/MockInjection.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/ConstructorInjection.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+e.getCause() instanceof InvocationTargetException
+argType.isAssignableFrom(object.getClass())
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/injection/SpyOnInjectedFieldsHandler.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+!fieldReader.isNull() && field.isAnnotationPresent(Spy.class)
+MockUtil.isMock(instance)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/IndependentAnnotationEngine.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+annotationProcessorMap.containsKey(annotation.annotationType())
+mock != null
+alreadyAssigned
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/plugins/PluginRegistry.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+impl instanceof InstantiatorProvider
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+preferredPlugin != null
+alternatePluginType != null
+alternatePlugin != null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/plugins/PluginFinder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+pluginClassName == null
+!pluginSwitch.isEnabled(pluginClassName)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/plugins/Plugins.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/plugins/DefaultPluginSwitch.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/plugins/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/plugins/PluginFileReader.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+stripped.length() > 0
+hash != -1
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/plugins/PluginInitializer.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+loader == null
+classOrAlias != null
+classOrAlias.equals(alias)
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+pluginType == InstantiatorProvider.class
+className == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/InjectingAnnotationEngine.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+classContext != Object.class
+clazz != Object.class
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/FieldAnnotationProcessor.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/internal/configuration/ClassPathLoader.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/MockitoSession.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/mock/SerializableMode.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/mock/MockCreationSettings.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/mock/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/mock/MockName.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/invocation/InvocationOnMock.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/invocation/DescribedInvocation.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/invocation/StubInfo.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/invocation/InvocationFactory.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/invocation/MatchableInvocation.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/invocation/Invocation.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/invocation/InvocationContainer.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/invocation/Location.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/invocation/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/invocation/MockHandler.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/verification/VerificationWithTimeout.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/verification/Timeout.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/verification/After.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/verification/VerificationMode.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/verification/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/verification/VerificationStrategy.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/verification/VerificationAfterDelay.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/verification/VerificationEvent.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/MockitoDebugger.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/Incubating.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/MockitoAnnotations.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+testClass == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/MockingDetails.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/MockitoFramework.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/Answer6.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/Stubber.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/Answer3.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/LenientStubber.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/VoidAnswer6.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/VoidAnswer2.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/VoidAnswer1.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/VoidAnswer5.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/Answer4.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/VoidAnswer4.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/ValidableAnswer.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/BaseStubber.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/Answer.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/Answer2.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/Answer1.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/Stubbing.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/Answer5.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/OngoingStubbing.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/stubbing/VoidAnswer3.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/Answers.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/ArgumentMatcher.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/runners/VerboseMockitoJUnitRunner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/runners/MockitoJUnitRunner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/runners/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/runners/ConsoleSpammingMockitoJUnitRunner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/Captor.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/hamcrest/MockitoHamcrest.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/hamcrest/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/Mockito.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/codegen/InjectionBase.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/quality/Strictness.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/quality/MockitoHint.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/quality/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/Spy.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/plugins/StackTraceCleanerProvider.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/plugins/AnnotationEngine.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/plugins/MockitoLogger.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/plugins/InstantiatorProvider.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/plugins/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/plugins/MockMaker.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/plugins/PluginSwitch.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/plugins/InlineMockMaker.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/plugins/MockitoPlugins.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/plugins/InstantiatorProvider2.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/Mock.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/NeverWantedButInvoked.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/TooFewActualInvocations.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/junit/ArgumentsAreDifferent.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/junit/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/MoreThanAllowedActualInvocations.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/WantedButNotInvoked.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/NoInteractionsWanted.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/ArgumentsAreDifferent.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/VerificationInOrderFailure.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/SmartNullPointerException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/TooManyActualInvocations.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/opentest4j/ArgumentsAreDifferent.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/opentest4j/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/verification/TooLittleActualInvocations.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/stacktrace/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/stacktrace/StackTraceCleaner.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/base/MockitoException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/base/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/base/MockitoInitializationException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/base/MockitoAssertionError.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/base/MockitoSerializationIssue.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/MissingMethodInvocationException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/InjectMocksException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/NullInsteadOfMockException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/CannotStubVoidMethodWithReturnValue.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/RedundantListenerException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/NotAMockException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/UnfinishedStubbingException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/CannotVerifyStubOnlyMock.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/MockitoConfigurationException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/WrongTypeOfReturnValue.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/FriendlyReminderException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/UnfinishedMockingSessionException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/UnfinishedVerificationException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/InvalidUseOfMatchersException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/PotentialStubbingProblem.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/exceptions/misusing/UnnecessaryStubbingException.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/AdditionalMatchers.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/session/MockitoSessionLogger.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/session/MockitoSessionBuilder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/ArgumentMatchers.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+value == null
+value == null
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/AdditionalAnswers.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/MockSettings.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/configuration/AnnotationEngine.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/configuration/package-info.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/configuration/DefaultMockitoConfiguration.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/configuration/IMockitoConfiguration.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/CheckReturnValue.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+
+/media/alexandre/MyFiles/TesteFiles/mockito-release-3.x_02_08_2019/src/main/java/org/mockito/InOrder.java@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+If
+
+While
+

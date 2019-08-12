@@ -1,4 +1,4 @@
-//import br.ime.usp.parser.compi.CompUnit;
+package br.ime.usp.parser.main;//import br.ime.usp.parser.compi.CompUnit;
 import br.ime.usp.parser.filemanager.FileManager;
 import br.ime.usp.parser.requeriment.Requirement;
 import javax.swing.*;
@@ -19,6 +19,7 @@ public class Main {
 
         File pathDir = fc.getSelectedFile();
         ArrayList<String> path = fm.buildListOfFile(pathDir.getAbsolutePath());
+        fm.buidMetricFile("Total number of files: " + path.size());
 
         for (String pathFull : path) {
 

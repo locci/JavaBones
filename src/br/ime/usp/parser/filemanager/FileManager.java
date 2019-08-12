@@ -52,7 +52,26 @@ public class FileManager {
 
         } catch (IOException e) {
 
-            System.out.println("Erro na escrita do arquivo de saída");
+            System.out.println("Erro na escrita do arquivo logIfWhile");
+            e.printStackTrace();
+
+        }
+
+    }
+
+    public void buidMetricFile(String line){
+
+        File fl = new File("metricFile");
+
+        try {
+
+            FileWriter fw = new FileWriter(fl, true) ;
+            fw.write(line + "\n");
+            fw.close();
+
+        } catch (IOException e) {
+
+            System.out.println("Erro na escrita do arquivo metricFile");
             e.printStackTrace();
 
         }
@@ -61,13 +80,22 @@ public class FileManager {
 
     public void destroFile() {
 
-        File fl = new File("logIfWhile");
+        File flLog = new File("logIfWhile");
+        File flMetric = new File("metricFile");
 
-        boolean delete = fl.delete();
+        boolean delete = flLog.delete();
 
         if(delete) {
 
-            System.out.println("Arquivo deletado.");
+            System.out.println("Arquivo logIfWhile deletado.");
+
+        }
+
+        delete = flMetric.delete();
+
+        if(delete) {
+
+            System.out.println("Arquivo metricFile deletado.");
 
         }
 

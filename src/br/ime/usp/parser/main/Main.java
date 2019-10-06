@@ -18,6 +18,7 @@ public class Main {
         fm.destroFile();
         int contIf    = 0;
         int contWhile = 0;
+        int contFor   = 0;
         File pathDir = fc.getSelectedFile();
         ArrayList<String> path = fm.buildListOfFile(pathDir.getAbsolutePath());
         fm.buildMetricFile("Total number of .java files: " + path.size());
@@ -29,6 +30,7 @@ public class Main {
             re.buildListIfRequirement(pathFull);
             List<String[]> listWhile = re.getListWhileRequirements();
             List<String[]> listIf = re.getListIfRequirements();
+            List<String[]> listFor = re.getListForRequirements();
 
             fm.buidLogFile("If");
 
@@ -75,9 +77,32 @@ public class Main {
                 }
             }
 
+            fm.buidLogFile("For");
+
+            for (String[] arr : listFor) {
+
+                for (String strOut : arr) {
+
+                    fm.buidLogFile(strOut);
+
+                }
+                if (arr.length > 1) {
+                    fm.buidLogFile("total number: " + Integer.toString(arr.length));
+                    contFor = contFor + arr.length;
+                } else {
+                    if (arr[0].equals("")) {
+                        fm.buidLogFile("total number: " + Integer.toString(0));
+                    } else {
+                        fm.buidLogFile("total number: " + Integer.toString(1));
+                        contFor = contFor + 1;
+                    }
+                }
+            }
+
         }
         fm.buildMetricFile("Total of if branches: "    + contIf);
         fm.buildMetricFile("Total of while branches: " + contWhile);
+        fm.buildMetricFile("Total of for branches: " + contFor);
     }
 
 }

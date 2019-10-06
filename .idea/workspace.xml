@@ -5,10 +5,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logIfWhile" beforeDir="false" afterPath="$PROJECT_DIR$/logIfWhile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/metricFile" beforeDir="false" afterPath="$PROJECT_DIR$/metricFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/META-INF/javaparser3.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/FileManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/requeriment/Requirement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/requeriment/Requirement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/stmt/StmtIfWhile.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requirement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requirement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/stmt/StmtIfWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/stmt/StmtIfWhileFor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,15 +157,6 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -181,6 +175,17 @@
     <MESSAGE value="Nesta versão, eu já consigo pegar os if e while. Agora vou iniciar uma versão que deve produzir a ferramenta que quero." />
     <MESSAGE value="Introduzindo testes e manipulação de arquivos." />
     <option name="LAST_COMMIT_MESSAGE" value="Introduzindo testes e manipulação de arquivos." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requirement.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

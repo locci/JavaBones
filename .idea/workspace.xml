@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b72d68-c4e4-42b0-a06c-14faae31a63d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaparser-core-3.6.26-SNAPSHOT-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaparser-core-3.6.26-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logIfWhile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metricFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javaparser_core_3_6_26_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javaparser_core_3_6_26_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javaparser_core_3_6_26_SNAPSHOT_sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javaparser_core_3_6_26_SNAPSHOT_sources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/compi/CompUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/compi/CompUnit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/FileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/requeriment/Requirement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/requeriment/Requirement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/stmt/StmtIfWhile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/stmt/StmtIfWhile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logIfWhile" beforeDir="false" afterPath="$PROJECT_DIR$/logIfWhile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metricFile" beforeDir="false" afterPath="$PROJECT_DIR$/metricFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/META-INF/javaparser3.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requirement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requirement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/main/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +168,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

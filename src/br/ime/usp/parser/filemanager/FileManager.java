@@ -59,7 +59,7 @@ public class FileManager {
 
     }
 
-    public void buidMetricFile(String line){
+    public void buildMetricFile(String line){
 
         File fl = new File("metricFile");
 

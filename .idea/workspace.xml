@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b72d68-c4e4-42b0-a06c-14faae31a63d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_csv_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csvFor.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csvIf.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csvWhile.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/Statistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/CsvFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logIfWhile" beforeDir="false" afterPath="$PROJECT_DIR$/logIfWhile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metricFile" beforeDir="false" afterPath="$PROJECT_DIR$/metricFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaparser3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaparser3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/requeriment/Requirement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/requeriment/Requirement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/stmt/StmtIfWhile.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requirement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requirement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/stmt/StmtIfWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/stmt/StmtIfWhileFor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +62,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547652287744" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/javaparser-core-3.6.26-SNAPSHOT-sources.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/Doutorado/Projeto/bibliotecas/renjin-script-engine-3.5-beta65-jar-with-dependencies.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1663286" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.ime.usp.parser.filemanager" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Statistic">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.ime.usp.parser.main.Main" />
       <module name="javaparser3" />
@@ -102,13 +107,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Statistic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.ime.usp.parser.Statistic" />
+      <module name="javaparser3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ime.usp.parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MethodChanger" />
       <item itemvalue="Application.MethodPrinter" />
+      <item itemvalue="Application.Statistic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Statistic" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MethodPrinter" />
         <item itemvalue="Application.MethodChanger" />

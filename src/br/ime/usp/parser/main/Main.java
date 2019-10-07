@@ -1,4 +1,5 @@
 package br.ime.usp.parser.main;//import br.ime.usp.parser.compi.CompUnit;
+import br.ime.usp.parser.filemanager.CsvFile;
 import br.ime.usp.parser.filemanager.FileManager;
 import br.ime.usp.parser.requeriment.Requirement;
 import javax.swing.*;
@@ -22,6 +23,10 @@ public class Main {
         File pathDir = fc.getSelectedFile();
         ArrayList<String> path = fm.buildListOfFile(pathDir.getAbsolutePath());
         fm.buildMetricFile("Total number of .java files: " + path.size());
+        List<Integer> dataLinesIf = new ArrayList<>();
+        List<Integer> dataLinesWhile = new ArrayList<>();
+        List<Integer> dataLinesFor = new ArrayList<>();
+        CsvFile csv = new CsvFile();
 
         for (String pathFull : path) {
 
@@ -45,12 +50,15 @@ public class Main {
                 if (arr.length > 1) {
                     fm.buidLogFile("total number: " + Integer.toString(arr.length));
                     contIf = contIf + arr.length;
+                    dataLinesIf.add(arr.length);
                 } else {
                     if (arr[0].equals("")) {
                         fm.buidLogFile("total number: " + Integer.toString(0));
+                        dataLinesIf.add(0);
                     } else {
                         fm.buidLogFile("total number: " + Integer.toString(1));
                         contIf = contIf + 1;
+                        dataLinesIf.add(1);
                     }
                 }
             }
@@ -67,12 +75,15 @@ public class Main {
                 if (arr.length > 1) {
                     fm.buidLogFile("total number: " + Integer.toString(arr.length));
                     contWhile = contWhile + arr.length;
+                    dataLinesWhile.add(arr.length);
                 } else {
                     if (arr[0].equals("")) {
                         fm.buidLogFile("total number: " + Integer.toString(0));
+                        dataLinesWhile.add(0);
                     } else {
                         fm.buidLogFile("total number: " + Integer.toString(1));
                         contWhile = contWhile + 1;
+                        dataLinesWhile.add(1);
                     }
                 }
             }
@@ -89,20 +100,31 @@ public class Main {
                 if (arr.length > 1) {
                     fm.buidLogFile("total number: " + Integer.toString(arr.length));
                     contFor = contFor + arr.length;
+                    dataLinesFor.add(arr.length);
                 } else {
                     if (arr[0].equals("")) {
                         fm.buidLogFile("total number: " + Integer.toString(0));
+                        dataLinesFor.add(0);
                     } else {
                         fm.buidLogFile("total number: " + Integer.toString(1));
                         contFor = contFor + 1;
+                        dataLinesFor.add(1);
                     }
                 }
             }
 
         }
+
         fm.buildMetricFile("Total of if branches: "    + contIf);
         fm.buildMetricFile("Total of while branches: " + contWhile);
         fm.buildMetricFile("Total of for branches: " + contFor);
+        csv.buildCSVFile(dataLinesIf, "If");
+        csv.buildCSVFile(dataLinesWhile, "While");
+        csv.buildCSVFile(dataLinesFor, "For");
+        dataLinesFor.clear();
+        dataLinesIf.clear();
+        dataLinesWhile.clear();
+
     }
 
 }

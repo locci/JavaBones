@@ -13,10 +13,46 @@ public class Statistic {
         ScriptEngine engine = factory.getScriptEngine();
 
         // ... put your Java code here ...
-        engine.eval("df <- data.frame(x=1:10, y=(1:10)+rnorm(n=10))");
+        /*engine.eval("df <- data.frame(x=1:10, y=(1:10)+rnorm(n=10))");
+        engine.eval("print(df)");
+        engine.eval("print(lm(y ~ x, df))");*/
+
+        //StringWriter outputWriter = new StringWriter();
+        //engine.getContext().setWriter(outputWriter);
+
+        /*engine.eval("df <- data.frame(x=1:10, y=(1:10)+rnorm(n=10))");
         engine.eval("print(df)");
         engine.eval("print(lm(y ~ x, df))");
+        String output = outputWriter.toString();
+        System.out.println(output + " My print.");
+        // Reset output to console
+        engine.getContext().setWriter(new PrintWriter(System.out));*/
+
+        //String output = outputWriter.toString();
+      /*  engine.eval("a <- 1 + 2");
+        engine.eval("print(a)");
+        String output = outputWriter.toString();
+        System.out.println(output);
+
+        engine.getContext().setWriter(new PrintWriter(System.out));*/
+        //SEXP res = (SEXP)engine.eval("a <- 2; b <- 3; a*b");
+        //System.out.println("The result of a*b is: " + res);
+
+
+        //SEXP res = (SEXP)engine.eval("df$forNum");
+        //System.out.println(res);
 
     }
+
+    public void buildBasicStatistics(String path) {
+
+
+
+
+
+
+
+    }
+
 
 }

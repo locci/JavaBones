@@ -1,7 +1,9 @@
 package br.ime.usp.parser.main;//import br.ime.usp.parser.compi.CompUnit;
 import br.ime.usp.parser.filemanager.CsvFile;
 import br.ime.usp.parser.filemanager.FileManager;
+import br.ime.usp.parser.filemanager.PlotFile;
 import br.ime.usp.parser.requeriment.Requirement;
+
 import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
@@ -27,6 +29,7 @@ public class Main {
         List<Integer> dataLinesWhile = new ArrayList<>();
         List<Integer> dataLinesFor = new ArrayList<>();
         CsvFile csv = new CsvFile();
+        PlotFile plot = new PlotFile();
 
         for (String pathFull : path) {
 
@@ -46,7 +49,6 @@ public class Main {
                     fm.buidLogFile(strOut);
 
                 }
-                //fm.buidLogFile("total number: " + Integer.toString(arr.length));
                 if (arr.length > 1) {
                     fm.buidLogFile("total number: " + Integer.toString(arr.length));
                     contIf = contIf + arr.length;
@@ -119,8 +121,14 @@ public class Main {
         fm.buildMetricFile("Total of while branches: " + contWhile);
         fm.buildMetricFile("Total of for branches: " + contFor);
         csv.buildCSVFile(dataLinesIf, "If");
+        plot.buildPlotsHistogram("csvIf.csv", "if");
+        plot.buildBoxPlot("csvIf.csv", "if");
         csv.buildCSVFile(dataLinesWhile, "While");
+        plot.buildPlotsHistogram("csvWhile.csv", "while");
+        plot.buildBoxPlot("csvWhile.csv", "while");
         csv.buildCSVFile(dataLinesFor, "For");
+        plot.buildPlotsHistogram("csvFor.csv", "for");
+        plot.buildBoxPlot("csvFor.csv", "for");
         dataLinesFor.clear();
         dataLinesIf.clear();
         dataLinesWhile.clear();

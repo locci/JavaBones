@@ -1,4 +1,5 @@
 package br.ime.usp.parser.main;//import br.ime.usp.parser.compi.CompUnit;
+import br.ime.usp.parser.Statistic;
 import br.ime.usp.parser.filemanager.CsvFile;
 import br.ime.usp.parser.filemanager.FileManager;
 import br.ime.usp.parser.filemanager.PlotFile;
@@ -30,6 +31,7 @@ public class Main {
         List<Integer> dataLinesFor = new ArrayList<>();
         CsvFile csv = new CsvFile();
         PlotFile plot = new PlotFile();
+        Statistic stat = new Statistic();
 
         for (String pathFull : path) {
 
@@ -123,6 +125,7 @@ public class Main {
         csv.buildCSVFile(dataLinesIf, "If");
         plot.buildPlotsHistogram("csvIf.csv", "if");
         plot.buildBoxPlot("csvIf.csv", "if");
+        stat.buildBasicStatistics("csvIf.csv");
         csv.buildCSVFile(dataLinesWhile, "While");
         plot.buildPlotsHistogram("csvWhile.csv", "while");
         plot.buildBoxPlot("csvWhile.csv", "while");

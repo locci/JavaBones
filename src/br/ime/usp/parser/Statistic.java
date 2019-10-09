@@ -3,6 +3,7 @@ package br.ime.usp.parser;
 import org.renjin.script.RenjinScriptEngineFactory;
 
 import javax.script.ScriptEngine;
+import javax.script.ScriptException;
 
 public class Statistic {
 
@@ -17,8 +18,7 @@ public class Statistic {
         engine.eval("print(df)");
         engine.eval("print(lm(y ~ x, df))");*/
 
-        //StringWriter outputWriter = new StringWriter();
-        //engine.getContext().setWriter(outputWriter);
+
 
         /*engine.eval("df <- data.frame(x=1:10, y=(1:10)+rnorm(n=10))");
         engine.eval("print(df)");
@@ -46,11 +46,18 @@ public class Statistic {
 
     public void buildBasicStatistics(String path) {
 
+        RenjinScriptEngineFactory factory = new RenjinScriptEngineFactory();
+        ScriptEngine engine = factory.getScriptEngine();
 
+        try {
+            engine.eval("setwd(\"/media/alexandre/MyFiles/projetoGit/javaparser3/\")");
+            engine.eval("MyData <- read.csv(file='" + path + "')");
+            engine.eval("df <- data.frame (MyData)");
+            engine.eval("colnames(df) <- c(\"Num\")");
 
-
-
-
+        } catch (ScriptException e) {
+            e.printStackTrace();
+        }
 
     }
 

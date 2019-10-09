@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63b72d68-c4e4-42b0-a06c-14faae31a63d" name="Default Changelist" comment="" />
+    <list default="true" id="63b72d68-c4e4-42b0-a06c-14faae31a63d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/statistic/logIfWhileFor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statistic/metricFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csvFor.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datafile/csvFor.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csvIf.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datafile/csvIf.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csvWhile.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datafile/csvWhile.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logIfWhile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/metricFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/Statistic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/Statistic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/CsvFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/CsvFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/PlotFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/filemanager/PlotFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleForBox.png" beforeDir="false" afterPath="$PROJECT_DIR$/plot/sampleForBox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleForHis.png" beforeDir="false" afterPath="$PROJECT_DIR$/plot/sampleForHis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleIfBox.png" beforeDir="false" afterPath="$PROJECT_DIR$/plot/sampleIfBox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleIfHis.png" beforeDir="false" afterPath="$PROJECT_DIR$/plot/sampleIfHis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleWhileBox.png" beforeDir="false" afterPath="$PROJECT_DIR$/plot/sampleWhileBox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampleWhileHis.png" beforeDir="false" afterPath="$PROJECT_DIR$/plot/sampleWhileHis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/Statistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/Statistic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/CsvFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/CsvFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/PlotFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/filemanager/PlotFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/main/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

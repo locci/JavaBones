@@ -51,7 +51,7 @@ public class Statistic {
 
         try {
             engine.eval("setwd(\"/media/alexandre/MyFiles/projetoGit/javaparser3/\")");
-            engine.eval("MyData <- read.csv(file='" + path + "')");
+            engine.eval("MyData <- read.csv(file='datafile/" + path + "')");
             engine.eval("df <- data.frame (MyData)");
             engine.eval("colnames(df) <- c(\"Num\")");
 

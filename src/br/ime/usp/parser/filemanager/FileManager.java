@@ -40,9 +40,9 @@ public class FileManager {
 
     }
 
-    public void buidLogFile(String line){
+    public void buildLogFile(String line){
 
-        File fl = new File("logIfWhile");
+        File fl = new File("statistic/logIfWhileFor");
 
         try {
 
@@ -61,7 +61,7 @@ public class FileManager {
 
     public void buildMetricFile(String line){
 
-        File fl = new File("metricFile");
+        File fl = new File("statistic/metricFile");
 
         try {
 
@@ -78,16 +78,16 @@ public class FileManager {
 
     }
 
-    public void destroFile() {
+    public void destroyFile() {
 
-        File flLog = new File("logIfWhile");
-        File flMetric = new File("metricFile");
+        File flLog = new File("statistic/logIfWhileFor");
+        File flMetric = new File("statistic/metricFile");
 
         boolean delete = flLog.delete();
 
         if(delete) {
 
-            System.out.println("Arquivo logIfWhile deletado.");
+            System.out.println("Arquivo logIfWhileFor deletado.");
 
         }
 

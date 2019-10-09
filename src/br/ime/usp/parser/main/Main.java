@@ -19,7 +19,7 @@ public class Main {
         final JFileChooser fc = new JFileChooser();
         fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         fc.showOpenDialog(null);
-        fm.destroFile();
+        fm.destroyFile();
         int contIf    = 0;
         int contWhile = 0;
         int contFor   = 0;
@@ -35,82 +35,82 @@ public class Main {
 
         for (String pathFull : path) {
 
-            fm.buidLogFile(pathFull + "  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            fm.buildLogFile(pathFull + "  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
             final Requirement re = new Requirement();
             re.buildListIfRequirement(pathFull);
             List<String[]> listWhile = re.getListWhileRequirements();
             List<String[]> listIf = re.getListIfRequirements();
             List<String[]> listFor = re.getListForRequirements();
 
-            fm.buidLogFile("If");
+            fm.buildLogFile("If");
 
             for (String[] arr : listIf) {
 
                 for (String strOut : arr) {
 
-                    fm.buidLogFile(strOut);
+                    fm.buildLogFile(strOut);
 
                 }
                 if (arr.length > 1) {
-                    fm.buidLogFile("total number: " + Integer.toString(arr.length));
+                    fm.buildLogFile("total number: " + Integer.toString(arr.length));
                     contIf = contIf + arr.length;
                     dataLinesIf.add(arr.length);
                 } else {
                     if (arr[0].equals("")) {
-                        fm.buidLogFile("total number: " + Integer.toString(0));
+                        fm.buildLogFile("total number: " + Integer.toString(0));
                         dataLinesIf.add(0);
                     } else {
-                        fm.buidLogFile("total number: " + Integer.toString(1));
+                        fm.buildLogFile("total number: " + Integer.toString(1));
                         contIf = contIf + 1;
                         dataLinesIf.add(1);
                     }
                 }
             }
 
-            fm.buidLogFile("While");
+            fm.buildLogFile("While");
 
             for (String[] arr : listWhile) {
 
                 for (String strOut : arr) {
 
-                    fm.buidLogFile(strOut);
+                    fm.buildLogFile(strOut);
 
                 }
                 if (arr.length > 1) {
-                    fm.buidLogFile("total number: " + Integer.toString(arr.length));
+                    fm.buildLogFile("total number: " + Integer.toString(arr.length));
                     contWhile = contWhile + arr.length;
                     dataLinesWhile.add(arr.length);
                 } else {
                     if (arr[0].equals("")) {
-                        fm.buidLogFile("total number: " + Integer.toString(0));
+                        fm.buildLogFile("total number: " + Integer.toString(0));
                         dataLinesWhile.add(0);
                     } else {
-                        fm.buidLogFile("total number: " + Integer.toString(1));
+                        fm.buildLogFile("total number: " + Integer.toString(1));
                         contWhile = contWhile + 1;
                         dataLinesWhile.add(1);
                     }
                 }
             }
 
-            fm.buidLogFile("For");
+            fm.buildLogFile("For");
 
             for (String[] arr : listFor) {
 
                 for (String strOut : arr) {
 
-                    fm.buidLogFile(strOut);
+                    fm.buildLogFile(strOut);
 
                 }
                 if (arr.length > 1) {
-                    fm.buidLogFile("total number: " + Integer.toString(arr.length));
+                    fm.buildLogFile("total number: " + Integer.toString(arr.length));
                     contFor = contFor + arr.length;
                     dataLinesFor.add(arr.length);
                 } else {
                     if (arr[0].equals("")) {
-                        fm.buidLogFile("total number: " + Integer.toString(0));
+                        fm.buildLogFile("total number: " + Integer.toString(0));
                         dataLinesFor.add(0);
                     } else {
-                        fm.buidLogFile("total number: " + Integer.toString(1));
+                        fm.buildLogFile("total number: " + Integer.toString(1));
                         contFor = contFor + 1;
                         dataLinesFor.add(1);
                     }

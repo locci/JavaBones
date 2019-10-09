@@ -11,7 +11,7 @@ public class CsvFile {
 
     public void buildCSVFile(List<Integer>  dataLines, String type) throws IOException {
 
-        String fileName = "csv" + type + ".csv";
+        String fileName = "datafile/csv" + type + ".csv";
 
 
         final FileWriter sw = new FileWriter(fileName);

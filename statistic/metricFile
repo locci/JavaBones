@@ -1,4 +1,25 @@
 Total number of .java files: 2631
 Total of if branches: 17573
+If basic statistics
+mean: 6.678707
+sd: 15.067106
+median: 1.0
+max: 322.0
+min: 0.0
+ampl: 322.0
 Total of while branches: 463
+While basic statistics
+mean: 0.17604563
+sd: 0.8734037
+median: 0.0
+max: 22.0
+min: 0.0
+ampl: 22.0
 Total of for branches: 2184
+For basic statistics
+mean: 0.8304182
+sd: 2.6879249
+median: 0.0
+max: 45.0
+min: 0.0
+ampl: 45.0

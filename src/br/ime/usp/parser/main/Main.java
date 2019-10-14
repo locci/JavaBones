@@ -1,5 +1,5 @@
 package br.ime.usp.parser.main;//import br.ime.usp.parser.compi.CompUnit;
-import br.ime.usp.parser.Statistic;
+import br.ime.usp.parser.statistic.Statistic;
 import br.ime.usp.parser.filemanager.CsvFile;
 import br.ime.usp.parser.filemanager.FileManager;
 import br.ime.usp.parser.filemanager.PlotFile;
@@ -120,18 +120,47 @@ public class Main {
         }
 
         fm.buildMetricFile("Total of if branches: "    + contIf);
-        fm.buildMetricFile("Total of while branches: " + contWhile);
-        fm.buildMetricFile("Total of for branches: " + contFor);
         csv.buildCSVFile(dataLinesIf, "If");
         plot.buildPlotsHistogram("csvIf.csv", "if");
         plot.buildBoxPlot("csvIf.csv", "if");
-        stat.buildBasicStatistics("csvIf.csv");
+        float resul[] = stat.buildBasicStatistics("csvIf.csv");
+        fm.buildMetricFile("If basic statistics");
+        fm.buildMetricFile("mean: " + resul[0]);
+        fm.buildMetricFile("sd: " + resul[1]);
+        fm.buildMetricFile("median: " + resul[2]);
+        fm.buildMetricFile("max: " + resul[3]);
+        fm.buildMetricFile("min: " + resul[4]);
+        float ampl = resul[3] - resul[4];
+        fm.buildMetricFile("ampl: " + ampl);
+
+        fm.buildMetricFile("Total of while branches: " + contWhile);
         csv.buildCSVFile(dataLinesWhile, "While");
         plot.buildPlotsHistogram("csvWhile.csv", "while");
         plot.buildBoxPlot("csvWhile.csv", "while");
+        resul = stat.buildBasicStatistics("csvWhile.csv");
+        fm.buildMetricFile("While basic statistics");
+        fm.buildMetricFile("mean: " + resul[0]);
+        fm.buildMetricFile("sd: " + resul[1]);
+        fm.buildMetricFile("median: " + resul[2]);
+        fm.buildMetricFile("max: " + resul[3]);
+        fm.buildMetricFile("min: " + resul[4]);
+        ampl = resul[3] - resul[4];
+        fm.buildMetricFile("ampl: " + ampl);
+
+        fm.buildMetricFile("Total of for branches: " + contFor);
         csv.buildCSVFile(dataLinesFor, "For");
         plot.buildPlotsHistogram("csvFor.csv", "for");
         plot.buildBoxPlot("csvFor.csv", "for");
+        resul = stat.buildBasicStatistics("csvFor.csv");
+        fm.buildMetricFile("For basic statistics");
+        fm.buildMetricFile("mean: " + resul[0]);
+        fm.buildMetricFile("sd: " + resul[1]);
+        fm.buildMetricFile("median: " + resul[2]);
+        fm.buildMetricFile("max: " + resul[3]);
+        fm.buildMetricFile("min: " + resul[4]);
+        ampl = resul[3] - resul[4];
+        fm.buildMetricFile("ampl: " + ampl);
+
         dataLinesFor.clear();
         dataLinesIf.clear();
         dataLinesWhile.clear();

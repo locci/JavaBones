@@ -97,9 +97,7 @@ public class Main {
             for (String[] arr : listFor) {
 
                 for (String strOut : arr) {
-
                     fm.buildLogFile(strOut);
-
                 }
                 if (arr.length > 1) {
                     fm.buildLogFile("total number: " + Integer.toString(arr.length));

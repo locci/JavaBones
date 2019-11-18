@@ -25,18 +25,20 @@ public class Requirement {
 
         CompUnit cp = new CompUnit();
         StmtIfWhileFor stm = new StmtIfWhileFor();
-
         String[] out;
 
         List<IfStmt> listIf       =  stm.buildListIfStmt(cp.buildCompilerUnit(fileName));
         List<WhileStmt> listWhile =  stm.buildListWhileStmt(cp.buildCompilerUnit(fileName));
         List<ForStmt> listFor     = stm.buildListForStmt(cp.buildCompilerUnit(fileName));
         StringBuilder requi = new StringBuilder();
+        Variables va = new Variables();
 
         for(IfStmt e: listIf) {
 
             Expression condition =  e.getCondition();
             requi.append(e.getCondition().toString()).append("\n");
+            //System.out.println(e.getCondition().toString());
+            va.getVariables(e);
 
         }
 

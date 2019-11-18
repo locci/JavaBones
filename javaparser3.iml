@@ -15,5 +15,6 @@
     <orderEntry type="library" name="stringr-1.2.0-b42" level="project" />
     <orderEntry type="library" name="histogram-0.0-25-b1" level="project" />
     <orderEntry type="library" name="htmltools-0.3.6-b42" level="project" />
+    <orderEntry type="library" name="MathParser.org-mXparser-v.4.2.0-jdk.1.10" level="project" />
   </component>
 </module>

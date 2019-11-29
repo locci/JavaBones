@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b72d68-c4e4-42b0-a06c-14faae31a63d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/MathParser_org_mXparser_v_4_2_0_jdk_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Variables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaparser3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaparser3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/requeriment/Requirement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaparser3/br/ime/usp/parser/requeriment/Requirement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requirement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Requirement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaparser3/META-INF/javaparser3.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ime/usp/parser/requeriment/Variables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/statistic/logIfWhileFor" beforeDir="false" afterPath="$PROJECT_DIR$/statistic/logIfWhileFor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistic/metricFile" beforeDir="false" afterPath="$PROJECT_DIR$/statistic/metricFile" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +46,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -62,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547652287744" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/Doutorado/Projeto/bibliotecas/MathParser.org-mXparser-v.4.2.0/bin-only/jdk.1.10/MathParser.org-mXparser-v.4.2.0-jdk.1.10.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1663286" />
@@ -72,18 +70,6 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.ime.usp.parser.filemanager" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -134,6 +120,18 @@
         <item itemvalue="Application.MethodChanger" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />

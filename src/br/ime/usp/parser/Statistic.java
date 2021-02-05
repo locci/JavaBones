@@ -1,17 +1,12 @@
 package br.ime.usp.parser;
 
-import org.renjin.script.RenjinScriptEngineFactory;
-
-import javax.script.ScriptEngine;
-import javax.script.ScriptException;
-
 public class Statistic {
 
     public static void main(String[] args) throws Exception {
         // create a script engine manager:
-        RenjinScriptEngineFactory factory = new RenjinScriptEngineFactory();
+        //RenjinScriptEngineFactory factory = new RenjinScriptEngineFactory();
         // create a Renjin engine:
-        ScriptEngine engine = factory.getScriptEngine();
+       // ScriptEngine engine = factory.getScriptEngine();
 
         // ... put your Java code here ...
         /*engine.eval("df <- data.frame(x=1:10, y=(1:10)+rnorm(n=10))");
@@ -46,18 +41,18 @@ public class Statistic {
 
     public void buildBasicStatistics(String path) {
 
-        RenjinScriptEngineFactory factory = new RenjinScriptEngineFactory();
-        ScriptEngine engine = factory.getScriptEngine();
+        //RenjinScriptEngineFactory factory = new RenjinScriptEngineFactory();
+       // ScriptEngine engine = factory.getScriptEngine();
 
-        try {
-            engine.eval("setwd(\"/media/alexandre/MyFiles/projetoGit/javaparser3/\")");
-            engine.eval("MyData <- read.csv(file='" + path + "')");
-            engine.eval("df <- data.frame (MyData)");
-            engine.eval("colnames(df) <- c(\"Num\")");
+       /* try {
+          //  engine.eval("setwd(\"/media/alexandre/MyFiles/projetoGit/javaparser3/\")");
+            //engine.eval("MyData <- read.csv(file='" + path + "')");
+            //engine.eval("df <- data.frame (MyData)");
+            //engine.eval("colnames(df) <- c(\"Num\")");
 
         } catch (ScriptException e) {
             e.printStackTrace();
-        }
+        }*/
 
     }
 

@@ -9,11 +9,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="javaparser-core-3.6.26-SNAPSHOT" level="project" />
     <orderEntry type="library" name="javaparser-core-3.6.26-SNAPSHOT-sources" level="project" />
-    <orderEntry type="library" name="commons-csv-1.7" level="project" />
-    <orderEntry type="library" name="renjin-script-engine-3.5-beta65-jar-with-dependencies" level="project" />
+    <orderEntry type="library" name="commons-csv-1.8" level="project" />
+    <orderEntry type="library" name="fujion-script-renjin-2.0.0-RC9-tests" level="project" />
     <orderEntry type="library" name="ash-1.0-15-b59" level="project" />
     <orderEntry type="library" name="stringr-1.2.0-b42" level="project" />
-    <orderEntry type="library" name="histogram-0.0-25-b1" level="project" />
-    <orderEntry type="library" name="htmltools-0.3.6-b42" level="project" />
+    <orderEntry type="library" name="renjin-script-engine-3.5-beta65-jar-with-dependencies" level="project" />
+    <orderEntry type="library" name="juel-api-2.2.7" level="project" />
   </component>
 </module>

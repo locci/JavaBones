@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="juel-api-2.2.7">
+    <CLASSES>
+      <root url="jar:///media/alexandre/Seagate Expansion Drive/bibliotecas/juel-2.2.7/juel-api-2.2.7.jar!/" />
+      <root url="jar:///media/alexandre/Seagate Expansion Drive/bibliotecas/juel-2.2.7/juel-impl-2.2.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

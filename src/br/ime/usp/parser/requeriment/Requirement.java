@@ -19,7 +19,7 @@ public class Requirement {
 
     private ArrayList<String []> listIfRequirements    = new ArrayList<>();
     private ArrayList<String []> listWhileRequirements = new ArrayList<>();
-    private ArrayList<String []> listForRequirements = new ArrayList<>();
+    private ArrayList<String []> listForRequirements   = new ArrayList<>();
 
     public void buildListIfRequirement(String fileName) throws FileNotFoundException {
 

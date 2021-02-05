@@ -7,7 +7,23 @@ import java.util.ArrayList;
 
 public class FileManager {
 
-    private ArrayList<String> outPutList = new ArrayList<>();
+    private final String nameFileRequeriment;
+
+    {
+        nameFileRequeriment = "logIfWhileFor";
+    }
+
+    private final String nameMetricFile;
+
+    {
+        nameMetricFile = "metricFile";
+    }
+
+    private final ArrayList<String> outPutList;
+
+    {
+        outPutList = new ArrayList<>();
+    }
 
     public ArrayList<String> buildListOfFile (String path) {
 
@@ -42,7 +58,7 @@ public class FileManager {
 
     public void buidLogFile(String line){
 
-        File fl = new File("logIfWhile");
+        File fl = new File(nameFileRequeriment);
 
         try {
 
@@ -52,7 +68,7 @@ public class FileManager {
 
         } catch (IOException e) {
 
-            System.out.println("Erro na escrita do arquivo logIfWhile");
+            System.out.println("Erro na escrita do arquivo logIfWhileFor");
             e.printStackTrace();
 
         }
@@ -61,7 +77,7 @@ public class FileManager {
 
     public void buildMetricFile(String line){
 
-        File fl = new File("metricFile");
+        File fl = new File(nameMetricFile);
 
         try {
 
@@ -80,14 +96,14 @@ public class FileManager {
 
     public void destroFile() {
 
-        File flLog = new File("logIfWhile");
-        File flMetric = new File("metricFile");
+        File flLog = new File(nameFileRequeriment);
+        File flMetric = new File(nameMetricFile);
 
         boolean delete = flLog.delete();
 
         if(delete) {
 
-            System.out.println("Arquivo logIfWhile deletado.");
+            System.out.println("Arquivo logIfWhileFor deletado.");
 
         }
 

@@ -1,8 +1,10 @@
 package br.ime.usp.parser.main;//import br.ime.usp.parser.compi.CompUnit;
 import br.ime.usp.parser.Statistic;
+import br.ime.usp.parser.expression.Expression;
 import br.ime.usp.parser.filemanager.CsvFile;
 import br.ime.usp.parser.filemanager.FileManager;
 import br.ime.usp.parser.filemanager.PlotFile;
+import br.ime.usp.parser.pairs.Pairs;
 import br.ime.usp.parser.requeriment.Requirement;
 
 import javax.swing.*;
@@ -32,6 +34,9 @@ public class Main {
         CsvFile csv = new CsvFile();
         PlotFile plot = new PlotFile();
         Statistic stat = new Statistic();
+        Pairs pa = new Pairs();
+        Expression ep = new Expression();
+        String auxOut = "";
 
         for (String pathFull : path) {
 
@@ -48,21 +53,38 @@ public class Main {
 
                 for (String strOut : arr) {
 
-                    fm.buidLogFile(strOut);
+                    if(!strOut.equals("")) {
+
+                        auxOut = strOut;
+                        //strOut = ep.parserConditions(strOut);
+                        strOut = strOut + " => " +pa.stack(auxOut);
+                        fm.buidLogFile(strOut);
+
+                        //fm.buidLogFile(pa.pairs(strOut));
+
+                    }
 
                 }
+
                 if (arr.length > 1) {
+
                     fm.buidLogFile("total number: " + Integer.toString(arr.length));
                     contIf = contIf + arr.length;
                     dataLinesIf.add(arr.length);
+
                 } else {
+
                     if (arr[0].equals("")) {
+
                         fm.buidLogFile("total number: " + Integer.toString(0));
                         dataLinesIf.add(0);
+
                     } else {
+
                         fm.buidLogFile("total number: " + Integer.toString(1));
                         contIf = contIf + 1;
                         dataLinesIf.add(1);
+
                     }
                 }
             }
@@ -123,15 +145,15 @@ public class Main {
         fm.buildMetricFile("Total of while branches: " + contWhile);
         fm.buildMetricFile("Total of for branches: " + contFor);
         csv.buildCSVFile(dataLinesIf, "If");
-        plot.buildPlotsHistogram("csvIf.csv", "if");
-        plot.buildBoxPlot("csvIf.csv", "if");
+        //plot.buildPlotsHistogram("csvIf.csv", "if");
+        //plot.buildBoxPlot("csvIf.csv", "if");
         stat.buildBasicStatistics("csvIf.csv");
         csv.buildCSVFile(dataLinesWhile, "While");
-        plot.buildPlotsHistogram("csvWhile.csv", "while");
-        plot.buildBoxPlot("csvWhile.csv", "while");
+        //plot.buildPlotsHistogram("csvWhile.csv", "while");
+       // plot.buildBoxPlot("csvWhile.csv", "while");
         csv.buildCSVFile(dataLinesFor, "For");
-        plot.buildPlotsHistogram("csvFor.csv", "for");
-        plot.buildBoxPlot("csvFor.csv", "for");
+        //plot.buildPlotsHistogram("csvFor.csv", "for");
+        //plot.buildBoxPlot("csvFor.csv", "for");
         dataLinesFor.clear();
         dataLinesIf.clear();
         dataLinesWhile.clear();
